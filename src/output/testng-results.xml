@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mercurry travels Sanity Test suite" duration-ms="35270" started-at="2018-07-27T16:00:46Z" finished-at="2018-07-27T16:01:21Z">
+    <groups>
+    </groups>
+    <test name="Search Holiday Packages" duration-ms="35270" started-at="2018-07-27T16:00:46Z" finished-at="2018-07-27T16:01:21Z">
+      <class name="com.mercuryTravels.testDateOfReturnFiledVisibility">
+        <test-method status="PASS" signature="verifyDateOfReturnFiledVisibility(java.lang.String)[pri:100, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@3f0ee7cb]" name="verifyDateOfReturnFiledVisibility" duration-ms="35185" started-at="2018-07-27T16:00:46Z" finished-at="2018-07-27T16:01:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.mercurytravels.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateOfReturnFiledVisibility -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@3f0ee7cb]" name="tearDown" is-config="true" duration-ms="2" started-at="2018-07-27T16:01:21Z" finished-at="2018-07-27T16:01:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDateOfReturnFiledVisibility status=SUCCESS method=testDateOfReturnFiledVisibility.verifyDateOfReturnFiledVisibility(java.lang.String)[pri:100, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@3f0ee7cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mercuryTravels.testDateOfReturnFiledVisibility -->
+    </test> <!-- Search Holiday Packages -->
+  </suite> <!-- Mercurry travels Sanity Test suite -->
+</testng-results>

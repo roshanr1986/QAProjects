@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mercurry travels Sanity Test suite">
+
+    <test name="Search Holiday Packages">
+        <parameter name="url" value="https://www.mercurytravels.co.in"></parameter>
+        <parameter name="continent" value="Australia"></parameter>
+        <parameter name="country" value="Australia"></parameter>
+        <parameter name="holidayType" value="Nature"></parameter>
+        <parameter name="duration" value="6Nights / 7Days"></parameter>
+        <parameter name="ExpectedSearchResultTitle" value="Red Centre Discovery"></parameter>
+        <parameter name="ExpectedPrice" value="59011"></parameter>
+        <parameter name="ExpectedTollFreeNumber" value="1800 266 2345"></parameter>
+        <parameter name="SelectedBranchName" value="Agra"></parameter>
+
+        <classes>
+            <class name="com.mercuryTravels.testDateOfReturnFiledVisibility">
+                <methods><exclude name="verifyDefaultSelectedTrip"></exclude></methods>
+            </class>
+        </classes>
+    </test>
+</suite>

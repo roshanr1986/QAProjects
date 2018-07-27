@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Test suite">
+    <test name="Class Test Execution">
+        <groups>
+            <run>
+                <include name="Sanity"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="testNGDemo.TestingClass"></class>
+            <class name="testNGDemo.TestingClass2"></class>
+        </classes>
+    </test>
+</suite>

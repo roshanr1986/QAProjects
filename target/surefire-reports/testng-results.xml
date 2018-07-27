@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity Test suite" duration-ms="62" started-at="2018-07-27T16:15:17Z" finished-at="2018-07-27T16:15:17Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestingClass.tc4()[pri:0, instance:testNGDemo.TestingClass@4157f54e]" name="tc4" class="testNGDemo.TestingClass"/>
+        <method signature="TestingClass.tc5()[pri:0, instance:testNGDemo.TestingClass@4157f54e]" name="tc5" class="testNGDemo.TestingClass"/>
+        <method signature="TestingClass.tc6()[pri:0, instance:testNGDemo.TestingClass@4157f54e]" name="tc6" class="testNGDemo.TestingClass"/>
+        <method signature="TestingClass2.tc1()[pri:0, instance:testNGDemo.TestingClass2@90f6bfd]" name="tc1" class="testNGDemo.TestingClass2"/>
+        <method signature="TestingClass2.tc2()[pri:0, instance:testNGDemo.TestingClass2@90f6bfd]" name="tc2" class="testNGDemo.TestingClass2"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="TestingClass.tc5()[pri:0, instance:testNGDemo.TestingClass@4157f54e]" name="tc5" class="testNGDemo.TestingClass"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Package Test Execution" duration-ms="62" started-at="2018-07-27T16:15:17Z" finished-at="2018-07-27T16:15:17Z">
+      <class name="testNGDemo.TestingClass2">
+        <test-method status="PASS" signature="tc2()[pri:0, instance:testNGDemo.TestingClass2@90f6bfd]" name="tc2" duration-ms="0" started-at="2018-07-27T16:15:17Z" finished-at="2018-07-27T16:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc1()[pri:0, instance:testNGDemo.TestingClass2@90f6bfd]" name="tc1" duration-ms="0" started-at="2018-07-27T16:15:17Z" finished-at="2018-07-27T16:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc3()[pri:0, instance:testNGDemo.TestingClass2@90f6bfd]" name="tc3" duration-ms="0" started-at="2018-07-27T16:15:17Z" finished-at="2018-07-27T16:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+      </class> <!-- testNGDemo.TestingClass2 -->
+      <class name="testNGDemo.TestingClass">
+        <test-method status="PASS" signature="tc4()[pri:0, instance:testNGDemo.TestingClass@4157f54e]" name="tc4" duration-ms="15" started-at="2018-07-27T16:15:17Z" finished-at="2018-07-27T16:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method status="PASS" signature="tc5()[pri:0, instance:testNGDemo.TestingClass@4157f54e]" name="tc5" duration-ms="0" started-at="2018-07-27T16:15:17Z" finished-at="2018-07-27T16:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method status="PASS" signature="tc6()[pri:0, instance:testNGDemo.TestingClass@4157f54e]" name="tc6" duration-ms="0" started-at="2018-07-27T16:15:17Z" finished-at="2018-07-27T16:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6 -->
+        <test-method status="PASS" signature="tc7()[pri:0, instance:testNGDemo.TestingClass@4157f54e]" name="tc7" duration-ms="0" started-at="2018-07-27T16:15:17Z" finished-at="2018-07-27T16:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc7 -->
+      </class> <!-- testNGDemo.TestingClass -->
+    </test> <!-- Package Test Execution -->
+  </suite> <!-- Sanity Test suite -->
+</testng-results>
