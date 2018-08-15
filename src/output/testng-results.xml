@@ -1,35 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Mercurry travels Sanity Test suite" duration-ms="35270" started-at="2018-07-27T16:00:46Z" finished-at="2018-07-27T16:01:21Z">
+  <suite name="Default Suite" duration-ms="46032" started-at="2018-08-15T17:01:05Z" finished-at="2018-08-15T17:01:51Z">
     <groups>
     </groups>
-    <test name="Search Holiday Packages" duration-ms="35270" started-at="2018-07-27T16:00:46Z" finished-at="2018-07-27T16:01:21Z">
-      <class name="com.mercuryTravels.testDateOfReturnFiledVisibility">
-        <test-method status="PASS" signature="verifyDateOfReturnFiledVisibility(java.lang.String)[pri:100, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@3f0ee7cb]" name="verifyDateOfReturnFiledVisibility" duration-ms="35185" started-at="2018-07-27T16:00:46Z" finished-at="2018-07-27T16:01:21Z">
+    <test name="ModulerFramework" duration-ms="46032" started-at="2018-08-15T17:01:05Z" finished-at="2018-08-15T17:01:51Z">
+      <class name="com.mercuryTravels.testBranchAddress">
+        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@48140564]" name="testBranchAddress" duration-ms="17553" started-at="2018-08-15T17:01:06Z" data-provider="addressData" finished-at="2018-08-15T17:01:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://www.mercurytravels.co.in]]>
+                <![CDATA[Agra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mercury Travels Ltd.
+C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001.]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDateOfReturnFiledVisibility -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@3f0ee7cb]" name="tearDown" is-config="true" duration-ms="2" started-at="2018-07-27T16:01:21Z" finished-at="2018-07-27T16:01:21Z">
+        </test-method> <!-- testBranchAddress -->
+        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@48140564]" name="testBranchAddress" duration-ms="14192" started-at="2018-08-15T17:01:24Z" data-provider="addressData" finished-at="2018-08-15T17:01:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyDateOfReturnFiledVisibility status=SUCCESS method=testDateOfReturnFiledVisibility.verifyDateOfReturnFiledVisibility(java.lang.String)[pri:100, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@3f0ee7cb] output={null}]]]>
+                <![CDATA[Ahmedabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mercury Travels Ltd.
+103 B Abhijeet 1, 1st Floor, Mithakali Six Roads, Ahmedabad 380 006.]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mercuryTravels.testDateOfReturnFiledVisibility -->
-    </test> <!-- Search Holiday Packages -->
-  </suite> <!-- Mercurry travels Sanity Test suite -->
+        </test-method> <!-- testBranchAddress -->
+        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@48140564]" name="testBranchAddress" duration-ms="12803" started-at="2018-08-15T17:01:38Z" data-provider="addressData" finished-at="2018-08-15T17:01:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mercury Travels Ltd.
+125, Infantry Road, Bangalore 560 001.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBranchAddress -->
+      </class> <!-- com.mercuryTravels.testBranchAddress -->
+    </test> <!-- ModulerFramework -->
+  </suite> <!-- Default Suite -->
 </testng-results>

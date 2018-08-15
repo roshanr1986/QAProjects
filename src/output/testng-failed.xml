@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Mercurry travels Sanity Test suite]">
-  <test thread-count="5" name="Search Holiday Packages(failed)">
-    <parameter name="continent" value="Australia"/>
-    <parameter name="duration" value="6Nights / 7Days"/>
-    <parameter name="country" value="Australia"/>
-    <parameter name="ExpectedSearchResultTitle" value="Red Centre Discovery"/>
-    <parameter name="holidayType" value="Nature"/>
-    <parameter name="ExpectedPrice" value="59011"/>
-    <parameter name="SelectedBranchName" value="Agra"/>
-    <parameter name="ExpectedTollFreeNumber" value="1800 266 2345"/>
-    <parameter name="url" value="https://www.mercurytravels.co.in"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="ModulerFramework(failed)">
     <classes>
-      <class name="com.mercuryTravels.testDateOfReturnFiledVisibility">
+      <class name="com.mercuryTravels.testBranchAddress">
         <methods>
-          <include name="tearDown"/>
-          <include name="verifyDateOfReturnFiledVisibility" invocation-numbers="0"/>
+          <include name="testBranchAddress" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.mercuryTravels.testDateOfReturnFiledVisibility -->
+      </class> <!-- com.mercuryTravels.testBranchAddress -->
     </classes>
-  </test> <!-- Search Holiday Packages(failed) -->
-</suite> <!-- Failed suite [Mercurry travels Sanity Test suite] -->
+  </test> <!-- ModulerFramework(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

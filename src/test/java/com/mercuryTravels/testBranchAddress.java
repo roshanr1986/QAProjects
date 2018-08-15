@@ -4,17 +4,29 @@ import com.mercuryTravel.MtHomePage;
 import commonLibs.implementation.commonDriver;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import utils.commonUtils.ReadExcelData;
+import utils.commonUtils.getTestData;
+import utils.commonUtils.property;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class testBranchAddress {
 
-    @Parameters({"url","SelectedBranchName"})
-    @Test
-    public void testBranchAddress(String url, String SelectedBranchName) throws  Exception{
+    @DataProvider(name="addressData")
+   public Object[][] getTestData() throws Exception {
+        ReadExcelData dataObject = new ReadExcelData();
+    return dataObject.getData("testBranchAddress","Sheet1");
+    }
+
+    //@Parameters({"url","SelectedBranchName"})
+    @Test(dataProvider="addressData")
+    public void testBranchAddress( String SelectedBranchName, String ExpectedAddress) throws  Exception{
 
         commonDriver comDriver= new commonDriver("chrome");
-        comDriver.openBrowserAndGetURL(url);
+        comDriver.openBrowserAndGetURL(property.url);
         WebDriver driver=comDriver.getDriver();
 
         //initializing the object of homepage page object
@@ -23,8 +35,7 @@ public class testBranchAddress {
         //start of test script
         homePage.selectBranch(SelectedBranchName);
         System.out.println(homePage.getBranchAddress());
-        Assert.assertEquals(homePage.getBranchAddress(),"Mercury Travels Ltd.\n" +
-                "C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001.");
+        Assert.assertEquals(homePage.getBranchAddress(),ExpectedAddress);
         comDriver.closeBrowser();
     }
 }
