@@ -23,7 +23,7 @@ public class ReadExcelData  {
         for(int i=0;i<rowCount;i++){
             for(int n=0;n<colCount;n++){
                 data[i][n]=dataObject.readFromExcel(fileName,sheetName,i+1,n);
-                System.out.println(data[i][n]);
+                //System.out.println(data[i][n]);
             }
         }
 

@@ -24,8 +24,8 @@ public class getTestData
 
     public static XSSFRow Row;
 
-    public static String filepath="C:/Users/pcadmin/IdeaProjects/ModulerFramework/src/test/data/";
-    public static String extension=".xlsx";
+    public static String filepath=property.excelTestDataFilePath;
+    public static String extension=property.excelFileExtension;
 
     public int getColumnCount(String filename, String sheetname) throws Exception {
 

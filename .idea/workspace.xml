@@ -1,63 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcefba29-05e0-4a47-b252-8be2808ea735" name="Default" comment="Changes in POM : Set the suiteXMLfile to Mercurry travels test suit">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/commonUtils/ReadExcelData.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/commonUtils/Xls_Reader.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/commonUtils/getTestData.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/commonUtils/property.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/output/junitreports/TEST-com.mercuryTravels.testReadExcelData.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/data/testBranchAddress.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/testcasesXMLfiles/MercurryTravelsRegression.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="dcefba29-05e0-4a47-b252-8be2808ea735" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ModulerFramework.iml" afterPath="$PROJECT_DIR$/ModulerFramework.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commonLibs/contracts/ITakeScreenShots.java" afterPath="$PROJECT_DIR$/src/main/java/commonLibs/contracts/ITakeScreenShots.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java" afterPath="$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/commonUtils/ReadExcelData.java" afterPath="$PROJECT_DIR$/src/main/java/utils/commonUtils/ReadExcelData.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/commonUtils/getTestData.java" afterPath="$PROJECT_DIR$/src/main/java/utils/commonUtils/getTestData.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/commonUtils/property.java" afterPath="$PROJECT_DIR$/src/main/java/utils/commonUtils/property.java" />
       <change beforePath="$PROJECT_DIR$/src/output/Default Suite/ModulerFramework.html" afterPath="$PROJECT_DIR$/src/output/Default Suite/ModulerFramework.html" />
       <change beforePath="$PROJECT_DIR$/src/output/Default Suite/ModulerFramework.xml" afterPath="$PROJECT_DIR$/src/output/Default Suite/ModulerFramework.xml" />
       <change beforePath="$PROJECT_DIR$/src/output/Default Suite/testng-failed.xml" afterPath="$PROJECT_DIR$/src/output/Default Suite/testng-failed.xml" />
-      <change beforePath="$PROJECT_DIR$/src/output/Mercurry travels Sanity Test suite/Search Holiday Packages.html" afterPath="$PROJECT_DIR$/src/output/Mercurry travels Sanity Test suite/Search Holiday Packages.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/Mercurry travels Sanity Test suite/Search Holiday Packages.xml" afterPath="$PROJECT_DIR$/src/output/Mercurry travels Sanity Test suite/Search Holiday Packages.xml" />
       <change beforePath="$PROJECT_DIR$/src/output/emailable-report.html" afterPath="$PROJECT_DIR$/src/output/emailable-report.html" />
       <change beforePath="$PROJECT_DIR$/src/output/index.html" afterPath="$PROJECT_DIR$/src/output/index.html" />
       <change beforePath="$PROJECT_DIR$/src/output/junitreports/TEST-com.mercuryTravels.testBranchAddress.xml" afterPath="$PROJECT_DIR$/src/output/junitreports/TEST-com.mercuryTravels.testBranchAddress.xml" />
       <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/classes.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/classes.html" />
       <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/methods-alphabetical.html" />
       <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/methods.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/methods.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/testng.xml.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/testng.xml.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/classes.html" afterPath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/classes.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/methods-alphabetical.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/methods-not-run.html" afterPath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/methods-not-run.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/methods.html" afterPath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/methods.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/testng.xml.html" afterPath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/testng.xml.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/toc.html" afterPath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/toc.html" />
+      <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/toc.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/toc.html" />
       <change beforePath="$PROJECT_DIR$/src/output/old/index.html" afterPath="$PROJECT_DIR$/src/output/old/index.html" />
       <change beforePath="$PROJECT_DIR$/src/output/testng-failed.xml" afterPath="$PROJECT_DIR$/src/output/testng-failed.xml" />
       <change beforePath="$PROJECT_DIR$/src/output/testng-results.xml" afterPath="$PROJECT_DIR$/src/output/testng-results.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/data/testBranchAddress.xlsx" afterPath="$PROJECT_DIR$/src/test/data/testBranchAddress.xlsx" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testBranchAddress.java" afterPath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testBranchAddress.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DemoCommonDriver.class" afterPath="$PROJECT_DIR$/target/test-classes/DemoCommonDriver.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DemoSearchAmazonPOMStyle1.class" afterPath="$PROJECT_DIR$/target/test-classes/DemoSearchAmazonPOMStyle1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DemoSearchAmazonPOMStyle2.class" afterPath="$PROJECT_DIR$/target/test-classes/DemoSearchAmazonPOMStyle2.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DemoSearchAmazonPOMStyle3.class" afterPath="$PROJECT_DIR$/target/test-classes/DemoSearchAmazonPOMStyle3.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testBranchAddress.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testBranchAddress.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testDateOfReturnFiledVisibility.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testDateOfReturnFiledVisibility.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchHolidayPackage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchHolidayPackage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchHolidayPackageCount.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchHolidayPackageCount.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchHotel.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchHotel.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchResultTestNG.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchResultTestNG.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testTollFreeNumber.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testTollFreeNumber.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testMtGotoBuyForex.class" afterPath="$PROJECT_DIR$/target/test-classes/testMtGotoBuyForex.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testNGDemo/TestListener.class" afterPath="$PROJECT_DIR$/target/test-classes/testNGDemo/TestListener.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testNGDemo/TestingClass.class" afterPath="$PROJECT_DIR$/target/test-classes/testNGDemo/TestingClass.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testNGDemo/TestingClass2.class" afterPath="$PROJECT_DIR$/target/test-classes/testNGDemo/TestingClass2.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,12 +41,36 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/src/output" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="testDateOfReturnFiledVisibility.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testDateOfReturnFiledVisibility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="90" column="61" lean-forward="false" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="testBranchAddress.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testBranchAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1">
+              <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TakeScreenShots.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="30" column="104" lean-forward="false" selection-start-line="30" selection-start-column="104" selection-end-line="30" selection-end-column="104" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,8 +78,8 @@
       <file leaf-file-name="ReadExcelData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/ReadExcelData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
+            <state relative-caret-position="323">
+              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +90,18 @@
       <file leaf-file-name="getTestData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/getTestData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-561">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="697">
+              <caret line="73" column="80" lean-forward="false" selection-start-line="73" selection-start-column="80" selection-end-line="73" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="property.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/property.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -193,20 +192,20 @@
         <option value="$PROJECT_DIR$/src/testcasesXMLfiles/MercurryTravelsSanity.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/TakeScreenShotWhenTestFails.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNGDemo/TestListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java" />
         <option value="$PROJECT_DIR$/src/main/java/commonLibs/implementation/commonDriver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testDateOfReturnFiledVisibility.java" />
         <option value="$PROJECT_DIR$/src/main/java/commonLibs/contracts/ITakeScreenShots.java" />
         <option value="$PROJECT_DIR$/src/testcasesXMLfiles/MercurryTravelsRegression.xml" />
         <option value="$PROJECT_DIR$/src/main/java/utils/commonUtils/getDataFromExcel.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/commonUtils/Xls_Reader.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/config/property.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/commonUtils/property.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/commonUtils/getTestData.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testReadExcelData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/commonUtils/getTestData.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/commonUtils/ReadExcelData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testDateOfReturnFiledVisibility.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testBranchAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/commonUtils/property.java" />
+        <option value="$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java" />
       </list>
     </option>
   </component>
@@ -296,6 +295,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="commonUtils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModulerFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -690,38 +695,45 @@
       <option name="project" value="LOCAL" />
       <updated>1533543095150</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes in POM and added classes to read data from excel and used data provider">
+      <created>1534353234985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534353234985</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testBranchAddress - 2018.08.15 at 20h 23m 35s.xml">
-      <configuration name="testBranchAddress" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 20h 26m 35s.xml">
+    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 01m 06s.xml">
       <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 20h 37m 23s.xml">
+    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 03m 02s.xml">
       <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 20h 39m 30s.xml">
+    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 07m 02s.xml">
       <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 20h 40m 28s.xml">
+    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 10m 20s.xml">
       <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 22h 08m 04s.xml">
+    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 16m 36s.xml">
       <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 22h 11m 19s.xml">
+    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 23m 11s.xml">
       <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 22h 13m 58s.xml">
+    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 24m 05s.xml">
       <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 22h 16m 53s.xml">
+    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 25m 33s.xml">
       <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 22h 31m 52s.xml">
+    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 27m 11s.xml">
+      <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 39m 37s.xml">
       <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -757,7 +769,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes in POM : Set the suiteXMLfile" />
     <MESSAGE value="Changes in POM : Set the suiteXMLfile to Mercurry travels test suit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in POM : Set the suiteXMLfile to Mercurry travels test suit" />
+    <MESSAGE value="Changes in POM and added classes to read data from excel and used data provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in POM and added classes to read data from excel and used data provider" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -766,13 +779,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/net/SocketInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="93" column="23" lean-forward="false" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -953,6 +959,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -969,18 +976,6 @@
         <state relative-caret-position="850">
           <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="45" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#429#430#0" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1019,14 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testDateOfReturnFiledVisibility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1244,29 +1231,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/property.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="145" column="16" lean-forward="false" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/ReadExcelData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1278,19 +1247,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/getTestData.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testDateOfReturnFiledVisibility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="1292">
+          <caret line="90" column="61" lean-forward="false" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/getTestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="73" column="80" lean-forward="false" selection-start-line="73" selection-start-column="80" selection-end-line="73" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/ReadExcelData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="104" lean-forward="false" selection-start-line="30" selection-start-column="104" selection-end-line="30" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screenshots/testBranchAddress.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testBranchAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1">
+          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

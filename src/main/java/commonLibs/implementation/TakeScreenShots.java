@@ -5,6 +5,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.apache.commons.io.FileUtils;
+import utils.commonUtils.property;
 
 import java.io.File;
 import java.sql.Timestamp;
@@ -27,7 +28,7 @@ public class TakeScreenShots implements ITakeScreenShots {
          Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         String subfolder=timestamp.toString().trim();
 
-        imgFile=new File("C:\\Users\\pcadmin\\IdeaProjects\\ModulerFramework\\src\\screenshots\\"+fileName+".png");
+        imgFile=new File(property.screenshotImageFilePath+fileName+property.screenshotImageFileExtension);
         if (imgFile.exists()){
             throw new Exception("Duplicate File Name ...");
         }
