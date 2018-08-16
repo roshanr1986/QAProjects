@@ -113,6 +113,14 @@ public class MtHotelsPage {
 
     }
 
+    public void findAndCloseCookieMessage() throws Exception{
+        if (cookiesDismissButton.isDisplayed()){
+            comElement.click(cookiesDismissButton);
+        }else{
+            System.out.println("Cookie dismiss button is not displayed");
+        }
+    }
+
     public void clickOnCheckInDate(WebDriver driver, String selectedCheckinDate) throws Exception {
 
 
@@ -151,23 +159,38 @@ public class MtHotelsPage {
                 if (cell.getText().trim().equalsIgnoreCase(selectedCheckinDate)){
                     //comDriver.waitForElementToBeClickable(driver,cell);
                     //checking if the overlay is present and if so, close it
-                    if (cookiesDismissButton.isDisplayed()){
-                        comElement.click(cookiesDismissButton);
-                    }
+
                     if ((!comElement.isElementVisible(dateWidgetForm)) && (DatePickerXpath.contains("div[16]") )){
 
                         System.out.println("Clicked on CHECK IN DATE when element is not visible");
-                        comElement.click(checkInDate);
+                        if (cookiesDismissButton.isDisplayed()){
+                            comElement.click(cookiesDismissButton);
+                        }else{
+                            System.out.println("Cookie dismiss button is not displayed");
+                        }
+                        comElement.click(checkInDate); //clicking on check in date calendar icon
 
                     }else if((!comElement.isElementVisible(dateWidgetForm)) && (DatePickerXpath.contains("div[17]") )){
 
                         System.out.println("Clicked on CHECK OUT DATE when element is not visible");
-                        comElement.click(checkOutDate);
+
+                        if (cookiesDismissButton.isDisplayed()){
+                            comElement.click(cookiesDismissButton);
+                        }else{
+                            System.out.println("Cookie dismiss button is not displayed");
+                        }
+                        comElement.click(checkOutDate); //clicking on check out date calendar icon
 
                     }
 
                   // comElement.waitForElementToBeClickable(driver,cell);
                     System.out.println("Before clicking the element "+cell.getText());
+
+                    if (cookiesDismissButton.isDisplayed()){
+                        comElement.click(cookiesDismissButton);
+                    }else{
+                        System.out.println("Cookie dismiss button is not displayed");
+                    }
 
                     comElement.click(cell);
                     //mouse.moveToElementAndClick(cell);

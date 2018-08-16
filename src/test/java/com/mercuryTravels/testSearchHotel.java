@@ -7,15 +7,15 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import utils.commonUtils.property;
 
 public class testSearchHotel {
 
-    @Parameters({"url"})
     @Test
-    public void testSearchHotel(String url) throws  Exception{
+    public void testSearchHotel() throws  Exception{
 
         commonDriver comDriver= new commonDriver("chrome");
-        comDriver.openBrowserAndGetURL(url);
+        comDriver.openBrowserAndGetURL(property.url);
         WebDriver driver=comDriver.getDriver();
 
         //initializing the object of homepage page object
@@ -27,15 +27,18 @@ public class testSearchHotel {
         //click on hotels main menu link
         homePage.goToHotels();
 
+        //wait for the cookie message and close it
+        hotelPage.findAndCloseCookieMessage();
+
         //send keys to destination city
         hotelPage.setCity(driver,"London","London, United Kingdom");
 
         //set check in date
-        hotelPage.clickOnCheckInDate(driver,"23");
+        hotelPage.clickOnCheckInDate(driver,"30");
 
 
         //set check out date
-        hotelPage.clickOnCheckOutDate(driver,"25");
+        hotelPage.clickOnCheckOutDate(driver,"31");
 
         //click on search button
        // hotelPage.clickSearchHotelsButton();

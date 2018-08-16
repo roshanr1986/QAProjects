@@ -3,26 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="dcefba29-05e0-4a47-b252-8be2808ea735" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java" afterPath="$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/commonUtils/ReadExcelData.java" afterPath="$PROJECT_DIR$/src/main/java/utils/commonUtils/ReadExcelData.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/commonUtils/getTestData.java" afterPath="$PROJECT_DIR$/src/main/java/utils/commonUtils/getTestData.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/commonUtils/property.java" afterPath="$PROJECT_DIR$/src/main/java/utils/commonUtils/property.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHotelsPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHotelsPage.java" />
       <change beforePath="$PROJECT_DIR$/src/output/Default Suite/ModulerFramework.html" afterPath="$PROJECT_DIR$/src/output/Default Suite/ModulerFramework.html" />
       <change beforePath="$PROJECT_DIR$/src/output/Default Suite/ModulerFramework.xml" afterPath="$PROJECT_DIR$/src/output/Default Suite/ModulerFramework.xml" />
       <change beforePath="$PROJECT_DIR$/src/output/Default Suite/testng-failed.xml" afterPath="$PROJECT_DIR$/src/output/Default Suite/testng-failed.xml" />
       <change beforePath="$PROJECT_DIR$/src/output/emailable-report.html" afterPath="$PROJECT_DIR$/src/output/emailable-report.html" />
       <change beforePath="$PROJECT_DIR$/src/output/index.html" afterPath="$PROJECT_DIR$/src/output/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/junitreports/TEST-com.mercuryTravels.testBranchAddress.xml" afterPath="$PROJECT_DIR$/src/output/junitreports/TEST-com.mercuryTravels.testBranchAddress.xml" />
+      <change beforePath="$PROJECT_DIR$/src/output/junitreports/TEST-com.mercuryTravels.testSearchHotel.xml" afterPath="$PROJECT_DIR$/src/output/junitreports/TEST-com.mercuryTravels.testSearchHotel.xml" />
       <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/classes.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/classes.html" />
       <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/methods-alphabetical.html" />
       <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/methods.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/methods.html" />
+      <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/testng.xml.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/testng.xml.html" />
       <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/toc.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/toc.html" />
       <change beforePath="$PROJECT_DIR$/src/output/old/index.html" afterPath="$PROJECT_DIR$/src/output/old/index.html" />
       <change beforePath="$PROJECT_DIR$/src/output/testng-failed.xml" afterPath="$PROJECT_DIR$/src/output/testng-failed.xml" />
       <change beforePath="$PROJECT_DIR$/src/output/testng-results.xml" afterPath="$PROJECT_DIR$/src/output/testng-results.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/data/testBranchAddress.xlsx" afterPath="$PROJECT_DIR$/src/test/data/testBranchAddress.xlsx" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testBranchAddress.java" afterPath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testBranchAddress.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testBranchAddress.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testBranchAddress.class" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchHotel.java" afterPath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchHotel.java" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchHotel.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchHotel.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testBranchAddress.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testBranchAddress.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testBranchAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="52">
+              <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,14 +61,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TakeScreenShots.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java">
+      <file leaf-file-name="testSearchHotel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchHotel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="30" column="104" lean-forward="false" selection-start-line="30" selection-start-column="104" selection-end-line="30" selection-end-column="104" />
+            <state relative-caret-position="255">
+              <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MtHotelsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHotelsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="116" column="48" lean-forward="true" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TakeScreenShots.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,6 +167,7 @@
       <find>testng</find>
       <find>takescreen</find>
       <find>getco</find>
+      <find>findand</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,8 +197,6 @@
         <option value="$PROJECT_DIR$/src/main/java/commonLibs/contracts/IcommonElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/commonLibs/implementation/commonElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/commonLibs/contracts/Driver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchHotel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHotelsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNGDemo/TestingClass.java" />
         <option value="$PROJECT_DIR$/src/testcasesXMLfiles/testngExample2.xml" />
@@ -203,9 +222,11 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/commonUtils/getTestData.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/commonUtils/ReadExcelData.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testDateOfReturnFiledVisibility.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testBranchAddress.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/commonUtils/property.java" />
         <option value="$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testBranchAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHotelsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchHotel.java" />
       </list>
     </option>
   </component>
@@ -300,12 +321,6 @@
               <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="ModulerFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ModulerFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,10 +350,6 @@
               <item name="ModulerFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="testcasesXMLfiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -413,7 +424,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.testBranchAddress.testBranchAddress">
+  <component name="RunManager" selected="TestNG.testSearchHotel.testSearchHotel">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -461,33 +472,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-    </configuration>
-    <configuration name="C:/Users/pcadmin/IdeaProjects/ModulerFramework/src/testcasesXMLfiles/MercurryTravelsRegression.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ModulerFramework" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testcasesXMLfiles/MercurryTravelsRegression.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" value="C:\Users\pcadmin\IdeaProjects\ModulerFramework\src\output" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <envs />
-      <properties />
-      <listeners />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -644,6 +628,38 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="testSearchHotel.testSearchHotel" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mercuryTravels.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ModulerFramework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.mercuryTravels" />
+      <option name="MAIN_CLASS_NAME" value="com.mercuryTravels.testSearchHotel" />
+      <option name="METHOD_NAME" value="testSearchHotel" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="C:\Users\pcadmin\IdeaProjects\ModulerFramework\src\output" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -651,19 +667,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/pcadmin/IdeaProjects/ModulerFramework/src/testcasesXMLfiles/MercurryTravelsRegression.xml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.testReadExcelData.readFromExcel" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.testReadExcelData.test_ReadFromExcel" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.testBranchAddress.testBranchAddress" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.testBranchAddress" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.testReadExcelData.readFromExcel" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.testReadExcelData.test_ReadFromExcel" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.testBranchAddress.testBranchAddress" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.testBranchAddress" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.testSearchHotel.testSearchHotel" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.testBranchAddress.testBranchAddress" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.testBranchAddress" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.testReadExcelData.test_ReadFromExcel" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.testReadExcelData.readFromExcel" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/pcadmin/IdeaProjects/ModulerFramework/src/testcasesXMLfiles/MercurryTravelsRegression.xml" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.testSearchHotel.testSearchHotel" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.testBranchAddress.testBranchAddress" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.testBranchAddress" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.testReadExcelData.test_ReadFromExcel" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.testReadExcelData.readFromExcel" />
       </list>
     </recent_temporary>
   </component>
@@ -702,43 +718,51 @@
       <option name="project" value="LOCAL" />
       <updated>1534353234985</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes in POM and added classes to read data from excel and used data provider">
+      <created>1534356900179</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534356900179</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 01m 06s.xml">
-      <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 03m 02s.xml">
-      <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 07m 02s.xml">
-      <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 10m 20s.xml">
-      <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 16m 36s.xml">
-      <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 23m 11s.xml">
-      <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 24m 05s.xml">
-      <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 25m 33s.xml">
-      <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 27m 11s.xml">
-      <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="testBranchAddress_testBranchAddress - 2018.08.15 at 23h 39m 37s.xml">
       <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.16 at 19h 42m 38s.xml">
+      <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testSearchHotel_testSearchHotel - 2018.08.16 at 19h 02m 46s.xml">
+      <configuration name="testSearchHotel.testSearchHotel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testSearchHotel_testSearchHotel - 2018.08.16 at 19h 06m 20s.xml">
+      <configuration name="testSearchHotel.testSearchHotel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testSearchHotel_testSearchHotel - 2018.08.16 at 19h 10m 02s.xml">
+      <configuration name="testSearchHotel.testSearchHotel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testSearchHotel_testSearchHotel - 2018.08.16 at 19h 25m 52s.xml">
+      <configuration name="testSearchHotel.testSearchHotel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testSearchHotel_testSearchHotel - 2018.08.16 at 19h 34m 30s.xml">
+      <configuration name="testSearchHotel.testSearchHotel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testSearchHotel_testSearchHotel - 2018.08.16 at 19h 43m 27s.xml">
+      <configuration name="testSearchHotel.testSearchHotel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testSearchHotel_testSearchHotel - 2018.08.16 at 19h 46m 13s.xml">
+      <configuration name="testSearchHotel.testSearchHotel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testSearchHotel_testSearchHotel - 2018.08.16 at 19h 53m 08s.xml">
+      <configuration name="testSearchHotel.testSearchHotel" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -749,7 +773,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.7735294" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25588235" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1889706" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -835,14 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHotelsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3061">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcasesXMLfiles/testngExample2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -855,14 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchHotel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1281,28 +1289,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java">
+    <entry file="file://$PROJECT_DIR$/src/screenshots/testBranchAddress.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHotelsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" column="104" lean-forward="false" selection-start-line="30" selection-start-column="104" selection-end-line="30" selection-end-column="104" />
+        <state relative-caret-position="251">
+          <caret line="116" column="48" lean-forward="true" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/testBranchAddress.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchHotel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testBranchAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        <state relative-caret-position="52">
+          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -26,7 +26,7 @@ public class testBranchAddress {
 
 
     @DataProvider(name="addressData")
-   public Object[][] getTestData(Method method) throws Exception {
+    public Object[][] getTestData(Method method) throws Exception {
         testCaseName=method.getName();
         ReadExcelData dataObject = new ReadExcelData();
         return dataObject.getData(testCaseName,"Sheet1");
