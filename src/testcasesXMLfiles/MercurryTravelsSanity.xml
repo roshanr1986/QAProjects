@@ -14,9 +14,7 @@
         <parameter name="SelectedBranchName" value="Agra"></parameter>
 
         <classes>
-            <class name="com.mercuryTravels.testDateOfReturnFiledVisibility">
-                <methods><exclude name="verifyDefaultSelectedTrip"></exclude></methods>
-            </class>
+            <class name="com.mercuryTravels.testBranchAddress"></class>
         </classes>
     </test>
 </suite>

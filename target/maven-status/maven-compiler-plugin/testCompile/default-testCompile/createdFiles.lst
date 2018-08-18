@@ -1,4 +1,6 @@
+com\mercuryTravels\Steps\MyStepdefs.class
 com\mercuryTravels\testSearchHolidayPackageCount.class
+com\mercuryTravels\Runner\TestRunner.class
 com\mercuryTravels\testSearchHotel.class
 com\mercuryTravels\testSearchHolidayPackage.class
 com\mercuryTravels\testTollFreeNumber.class

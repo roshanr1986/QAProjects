@@ -8,17 +8,19 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Sanity Test suite</th></tr>
-<tr><td><a href="#t0">Package Test Execution</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">62</td><td></td><td></td></tr>
+<tr><th colspan="7">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">164</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Sanity Test suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Package Test Execution &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testNGDemo.TestingClass</td><td><a href="#m0">tc4</a></td><td rowspan="1">1532708117523</td><td rowspan="1">15</td></tr><tr class="passedeven"><td><a href="#m1">tc5</a></td><td rowspan="1">1532708117538</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m2">tc6</a></td><td rowspan="1">1532708117554</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m3">tc7</a></td><td rowspan="1">1532708117554</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="3">testNGDemo.TestingClass2</td><td><a href="#m4">tc1</a></td><td rowspan="1">1532708117554</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m5">tc2</a></td><td rowspan="1">1532708117554</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m6">tc3</a></td><td rowspan="1">1532708117554</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.mercuryTravels.testBranchAddress</td><td><a href="#m0">testBranchAddress</a></td><td rowspan="1">1534607637174</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Package Test Execution</h2><h3 id="m0">testNGDemo.TestingClass#tc4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testNGDemo.TestingClass#tc5</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testNGDemo.TestingClass#tc6</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testNGDemo.TestingClass#tc7</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testNGDemo.TestingClass2#tc1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testNGDemo.TestingClass2#tc2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">testNGDemo.TestingClass2#tc3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">com.mercuryTravels.testBranchAddress#testBranchAddress</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NoSuchFieldError: RETURN_NULL_AND_BLANK
+Caused by: java.lang.NoSuchFieldError: RETURN_NULL_AND_BLANK
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:191)
+	at utils.commonUtils.getTestData.excelSetup(getTestData.java:75)
+	at utils.commonUtils.getTestData.getRowCount(getTestData.java:49)
+	at utils.commonUtils.ReadExcelData.getData(ReadExcelData.java:16)
+	at com.mercuryTravels.testBranchAddress.getTestData(testBranchAddress.java:32)
+	... 27 more
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

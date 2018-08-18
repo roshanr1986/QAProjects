@@ -1,10 +1,12 @@
 commonLibs\contracts\IframeHandeling.class
+utils\commonUtils\property.class
 commonLibs\implementation\windowControls.class
 com\mercuryTravel\MtHolidayPage.class
 commonLibs\contracts\IwindowHandeling.class
 commonLibs\contracts\ITakeScreenShots.class
 commonLibs\contracts\IjavaScript.class
 commonLibs\contracts\Driver.class
+utils\commonUtils\ReadExcelData.class
 commonLibs\implementation\dropdownControls.class
 commonLibs\contracts\ImouseOperation.class
 commonLibs\implementation\textboxControl.class
@@ -18,6 +20,7 @@ com\mercuryTravel\MtHotelsPage.class
 commonLibs\implementation\frameControls.class
 commonLibs\implementation\AlertControls.class
 commonLibs\implementation\javaScriptExecutor.class
+utils\commonUtils\getTestData.class
 commonLibs\contracts\Itextbox.class
 commonLibs\implementation\commonElements.class
 commonLibs\implementation\commonDriver.class
@@ -26,6 +29,7 @@ com\mercuryTravel\MtHomePage.class
 utils\commonUtils\waitUtility.class
 designPatterns\AmazonPOMstyle2.class
 commonLibs\implementation\mouseControls.class
+utils\commonUtils\Xls_Reader.class
 com\mercuryTravel\MtFlightsPage.class
 commonLibs\contracts\IcommonElements.class
 commonLibs\implementation\checkboxControls.class

@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
   <test thread-count="5" name="ModulerFramework(failed)">
     <classes>
-      <class name="com.mercuryTravels.testSearchHotel">
+      <class name="com.mercuryTravels.Runner.TestRunner">
         <methods>
-          <include name="testSearchHotel"/>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.mercuryTravels.testSearchHotel -->
+      </class> <!-- com.mercuryTravels.Runner.TestRunner -->
     </classes>
   </test> <!-- ModulerFramework(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
