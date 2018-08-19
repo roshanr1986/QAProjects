@@ -15,6 +15,7 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.*;
 import testNGDemo.TestListener;
+import utils.commonUtils.property;
 
 import java.sql.Timestamp;
 
@@ -63,12 +64,11 @@ public WebDriver driver;
         }
     }
 
-    @Parameters({"url"})
     @Test(priority = 0)
-    public void verifyDefaultSelectedTrip(String url) throws Exception{
+    public void verifyDefaultSelectedTrip() throws Exception{
 
         commonDriver comDriver= new commonDriver("chrome");
-        comDriver.openBrowserAndGetURL(url);
+        comDriver.openBrowserAndGetURL(property.url);
         WebDriver driver=comDriver.getDriver();
 
         MtHomePage homePage = new MtHomePage(driver);

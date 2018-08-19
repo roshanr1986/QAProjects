@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="83659" started-at="2018-08-18T15:37:37Z" finished-at="2018-08-18T15:39:00Z">
+  <suite name="Default Suite" duration-ms="50674" started-at="2018-08-19T05:28:08Z" finished-at="2018-08-19T05:28:59Z">
     <groups>
     </groups>
-    <test name="ModulerFramework" duration-ms="83659" started-at="2018-08-18T15:37:37Z" finished-at="2018-08-18T15:39:00Z">
+    <test name="ModulerFramework" duration-ms="50674" started-at="2018-08-19T05:28:08Z" finished-at="2018-08-19T05:28:59Z">
       <class name="com.mercuryTravels.testBranchAddress">
-        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@19dfb72a]" name="testBranchAddress" duration-ms="40260" started-at="2018-08-18T15:37:39Z" data-provider="addressData" finished-at="2018-08-18T15:38:19Z">
+        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@506e6d5e]" name="testBranchAddress" duration-ms="17967" started-at="2018-08-19T05:28:10Z" data-provider="addressData" finished-at="2018-08-19T05:28:28Z">
           <params>
             <param index="0">
               <value>
@@ -24,18 +24,18 @@ C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001.]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBranchAddress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@19dfb72a]" name="tearDown" is-config="true" duration-ms="3" started-at="2018-08-18T15:38:19Z" finished-at="2018-08-18T15:38:19Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@506e6d5e]" name="tearDown" is-config="true" duration-ms="2" started-at="2018-08-19T05:28:28Z" finished-at="2018-08-19T05:28:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testBranchAddress status=SUCCESS method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@19dfb72a] output={null}]]]>
+                <![CDATA[[TestResult name=testBranchAddress status=SUCCESS method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@506e6d5e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@19dfb72a]" name="testBranchAddress" duration-ms="19087" started-at="2018-08-18T15:38:19Z" data-provider="addressData" finished-at="2018-08-18T15:38:38Z">
+        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@506e6d5e]" name="testBranchAddress" duration-ms="16476" started-at="2018-08-19T05:28:28Z" data-provider="addressData" finished-at="2018-08-19T05:28:44Z">
           <params>
             <param index="0">
               <value>
@@ -52,18 +52,7 @@ C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001.]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBranchAddress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@19dfb72a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-08-18T15:38:38Z" finished-at="2018-08-18T15:38:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testBranchAddress status=SUCCESS method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@19dfb72a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@19dfb72a]" name="testBranchAddress" duration-ms="22378" started-at="2018-08-18T15:38:38Z" data-provider="addressData" finished-at="2018-08-18T15:39:00Z">
+        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@506e6d5e]" name="testBranchAddress" duration-ms="14855" started-at="2018-08-19T05:28:44Z" data-provider="addressData" finished-at="2018-08-19T05:28:59Z">
           <params>
             <param index="0">
               <value>
@@ -80,11 +69,22 @@ C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001.]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBranchAddress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@19dfb72a]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-08-18T15:39:00Z" finished-at="2018-08-18T15:39:00Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@506e6d5e]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-08-19T05:28:44Z" finished-at="2018-08-19T05:28:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testBranchAddress status=SUCCESS method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@19dfb72a] output={null}]]]>
+                <![CDATA[[TestResult name=testBranchAddress status=SUCCESS method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@506e6d5e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@506e6d5e]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-08-19T05:28:59Z" finished-at="2018-08-19T05:28:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBranchAddress status=SUCCESS method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@506e6d5e] output={null}]]]>
               </value>
             </param>
           </params>
