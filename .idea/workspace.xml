@@ -2,62 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcefba29-05e0-4a47-b252-8be2808ea735" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_poi_external_commons_codec_3_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_poi_external_commons_collections_3_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_poi_external_commons_logging_3_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_poi_external_curvesapi_1_04.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_poi_external_log4j_3_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_poi_external_poi_3_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_poi_external_poi_examples_3_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_poi_external_poi_excelant_3_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_poi_external_poi_ooxml_3_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_poi_external_poi_ooxml_schemas_3_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_poi_external_poi_scratchpad_3_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_poi_external_xmlbeans_1_04.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17_beta1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17_beta1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/hooks.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/stepsTestBranchAddress.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/testBranchAddress.feature" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/ModulerFramework.iml" afterPath="$PROJECT_DIR$/ModulerFramework.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHomePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHomePage.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commonLibs/contracts/Idropdown.java" afterPath="$PROJECT_DIR$/src/main/java/commonLibs/contracts/Idropdown.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commonLibs/implementation/dropdownControls.java" afterPath="$PROJECT_DIR$/src/main/java/commonLibs/implementation/dropdownControls.java" />
       <change beforePath="$PROJECT_DIR$/src/output/Default Suite/ModulerFramework.html" afterPath="$PROJECT_DIR$/src/output/Default Suite/ModulerFramework.html" />
       <change beforePath="$PROJECT_DIR$/src/output/Default Suite/ModulerFramework.xml" afterPath="$PROJECT_DIR$/src/output/Default Suite/ModulerFramework.xml" />
-      <change beforePath="$PROJECT_DIR$/src/output/Mercurry travels Sanity Test suite/Search Holiday Packages.html" afterPath="$PROJECT_DIR$/src/output/Mercurry travels Sanity Test suite/Search Holiday Packages.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/Mercurry travels Sanity Test suite/Search Holiday Packages.xml" afterPath="$PROJECT_DIR$/src/output/Mercurry travels Sanity Test suite/Search Holiday Packages.xml" />
+      <change beforePath="$PROJECT_DIR$/src/output/Default Suite/testng-failed.xml" afterPath="$PROJECT_DIR$/src/output/Default Suite/testng-failed.xml" />
       <change beforePath="$PROJECT_DIR$/src/output/emailable-report.html" afterPath="$PROJECT_DIR$/src/output/emailable-report.html" />
       <change beforePath="$PROJECT_DIR$/src/output/index.html" afterPath="$PROJECT_DIR$/src/output/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/junitreports/TEST-com.mercuryTravels.testBranchAddress.xml" afterPath="$PROJECT_DIR$/src/output/junitreports/TEST-com.mercuryTravels.testBranchAddress.xml" />
+      <change beforePath="$PROJECT_DIR$/src/output/junitreports/TEST-com.mercuryTravels.Runner.TestRunner.xml" afterPath="$PROJECT_DIR$/src/output/junitreports/TEST-com.mercuryTravels.Runner.TestRunner.xml" />
+      <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/classes.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/classes.html" />
+      <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/groups.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/groups.html" />
       <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/methods-alphabetical.html" />
       <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/methods.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/methods.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/classes.html" afterPath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/classes.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/methods-alphabetical.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/methods.html" afterPath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/methods.html" />
-      <change beforePath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/toc.html" afterPath="$PROJECT_DIR$/src/output/old/Mercurry travels Sanity Test suite/toc.html" />
+      <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/testng.xml.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/testng.xml.html" />
+      <change beforePath="$PROJECT_DIR$/src/output/old/Default Suite/toc.html" afterPath="$PROJECT_DIR$/src/output/old/Default Suite/toc.html" />
+      <change beforePath="$PROJECT_DIR$/src/output/old/index.html" afterPath="$PROJECT_DIR$/src/output/old/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/output/testng-failed.xml" afterPath="$PROJECT_DIR$/src/output/testng-failed.xml" />
       <change beforePath="$PROJECT_DIR$/src/output/testng-results.xml" afterPath="$PROJECT_DIR$/src/output/testng-results.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testDateOfReturnFiledVisibility.java" afterPath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testDateOfReturnFiledVisibility.java" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/testng-failed.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.mercuryTravels.testBranchAddress.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.mercuryTravels.testBranchAddress.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.mercuryTravels.testBranchAddress.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.mercuryTravels.testBranchAddress.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/Surefire test.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/classes.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/groups.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/main.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-not-run.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/reporter-output.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/testng.xml.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/Runner/TestRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/Runner/TestRunner.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/MyStepdefs.java" afterPath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/MyStepdefs.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/Branch.feature" afterPath="$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/Branch.feature" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercuryTravel/MtFlightsPage.class" afterPath="$PROJECT_DIR$/target/classes/com/mercuryTravel/MtFlightsPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercuryTravel/MtHolidayPage.class" afterPath="$PROJECT_DIR$/target/classes/com/mercuryTravel/MtHolidayPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercuryTravel/MtHomePage.class" afterPath="$PROJECT_DIR$/target/classes/com/mercuryTravel/MtHomePage.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercuryTravel/MtHotelsPage.class" afterPath="$PROJECT_DIR$/target/classes/com/mercuryTravel/MtHotelsPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/contracts/Driver.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/contracts/Driver.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/contracts/IListenerTest.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/contracts/IListenerTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/contracts/ITakeScreenShots.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/contracts/ITakeScreenShots.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/contracts/IalertHandeling.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/contracts/IalertHandeling.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/contracts/Icheckbox.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/contracts/Icheckbox.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/contracts/IcommonElements.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/contracts/IcommonElements.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/contracts/Idropdown.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/contracts/Idropdown.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/contracts/IframeHandeling.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/contracts/IframeHandeling.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/contracts/IjavaScript.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/contracts/IjavaScript.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/contracts/ImouseOperation.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/contracts/ImouseOperation.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/contracts/Itextbox.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/contracts/Itextbox.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/contracts/IwindowHandeling.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/contracts/IwindowHandeling.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/implementation/AlertControls.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/implementation/AlertControls.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/implementation/TakeScreenShots.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/implementation/TakeScreenShots.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/implementation/checkboxControls.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/implementation/checkboxControls.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/implementation/commonDriver.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/implementation/commonDriver.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/implementation/commonElements.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/implementation/commonElements.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/implementation/dropdownControls.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/implementation/dropdownControls.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/implementation/frameControls.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/implementation/frameControls.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/implementation/javaScriptExecutor.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/implementation/javaScriptExecutor.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/implementation/mouseControls.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/implementation/mouseControls.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/implementation/textboxControl.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/implementation/textboxControl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonLibs/implementation/windowControls.class" afterPath="$PROJECT_DIR$/target/classes/commonLibs/implementation/windowControls.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designPatterns/AmazonPOMstyle1.class" afterPath="$PROJECT_DIR$/target/classes/designPatterns/AmazonPOMstyle1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designPatterns/AmazonPOMstyle2.class" afterPath="$PROJECT_DIR$/target/classes/designPatterns/AmazonPOMstyle2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designPatterns/AmazonPageFactory.class" afterPath="$PROJECT_DIR$/target/classes/designPatterns/AmazonPageFactory.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/commonUtils/ReadExcelData.class" afterPath="$PROJECT_DIR$/target/classes/utils/commonUtils/ReadExcelData.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/commonUtils/Xls_Reader.class" afterPath="$PROJECT_DIR$/target/classes/utils/commonUtils/Xls_Reader.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/commonUtils/getTestData.class" afterPath="$PROJECT_DIR$/target/classes/utils/commonUtils/getTestData.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/commonUtils/property.class" afterPath="$PROJECT_DIR$/target/classes/utils/commonUtils/property.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/commonUtils/waitUtility.class" afterPath="$PROJECT_DIR$/target/classes/utils/commonUtils/waitUtility.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DemoCommonDriver.class" afterPath="$PROJECT_DIR$/target/test-classes/DemoCommonDriver.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DemoSearchAmazonPOMStyle1.class" afterPath="$PROJECT_DIR$/target/test-classes/DemoSearchAmazonPOMStyle1.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DemoSearchAmazonPOMStyle2.class" afterPath="$PROJECT_DIR$/target/test-classes/DemoSearchAmazonPOMStyle2.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DemoSearchAmazonPOMStyle3.class" afterPath="$PROJECT_DIR$/target/test-classes/DemoSearchAmazonPOMStyle3.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/Runner/TestRunner.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/Runner/TestRunner.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/Steps/MyStepdefs.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/Steps/MyStepdefs.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testBranchAddress.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testBranchAddress.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testDateOfReturnFiledVisibility.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testDateOfReturnFiledVisibility.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchHolidayPackage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchHolidayPackage.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchHolidayPackageCount.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchHolidayPackageCount.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchHotel.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchHotel.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchResultTestNG.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testSearchResultTestNG.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testTollFreeNumber.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mercuryTravels/testTollFreeNumber.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testMtGotoBuyForex.class" afterPath="$PROJECT_DIR$/target/test-classes/testMtGotoBuyForex.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testNGDemo/TestListener.class" afterPath="$PROJECT_DIR$/target/test-classes/testNGDemo/TestListener.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testNGDemo/TestingClass.class" afterPath="$PROJECT_DIR$/target/test-classes/testNGDemo/TestingClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testNGDemo/TestingClass2.class" afterPath="$PROJECT_DIR$/target/test-classes/testNGDemo/TestingClass2.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,48 +100,12 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/src/output" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="testDateOfReturnFiledVisibility.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testDateOfReturnFiledVisibility.java">
+      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/Runner/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="70" column="51" lean-forward="false" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+            <state relative-caret-position="153">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testBranchAddress.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testBranchAddress.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testSearchHotel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchHotel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MtHotelsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHotelsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -125,9 +113,41 @@
       <file leaf-file-name="Branch.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/Branch.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testBranchAddress.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/testBranchAddress.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="84" lean-forward="false" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stepsTestBranchAddress.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/stepsTestBranchAddress.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hooks.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/hooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="30" column="63" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,48 +155,8 @@
       <file leaf-file-name="MyStepdefs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/MyStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="69" column="35" lean-forward="false" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MercurryTravelsRegression.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcasesXMLfiles/MercurryTravelsRegression.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MercurryTravelsSanity.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcasesXMLfiles/MercurryTravelsSanity.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/Runner/TestRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+            <state relative-caret-position="193">
+              <caret line="72" column="68" lean-forward="false" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -215,6 +195,7 @@
       <find>takescreen</find>
       <find>getco</find>
       <find>findand</find>
+      <find>branch</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -223,11 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/designPatterns/AmazonPOMstyle2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DemoSearchAmazonPOMStyle1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNGDemo/TestingClass1.java" />
-        <option value="$PROJECT_DIR$/src/testcasesXMLfiles/testngExecution.xml" />
-        <option value="$PROJECT_DIR$/src/testcasesXMLfiles/testngPackageExecution.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchHolidayPackageCount.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testTollFreeNumber.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchResultTestNG.java" />
@@ -235,7 +211,6 @@
         <option value="$PROJECT_DIR$/src/main/java/commonLibs/contracts/IcommonElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/commonLibs/implementation/commonElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/commonLibs/contracts/Driver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNGDemo/TestingClass.java" />
         <option value="$PROJECT_DIR$/src/testcasesXMLfiles/testngExample2.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testNGDemo/TestingClass2.java" />
@@ -264,16 +239,22 @@
         <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchHotel.java" />
         <option value="$PROJECT_DIR$/src/cucumberFeatures/Login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/Login.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/Branch.feature" />
         <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/StepDefinitions/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/Steps/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/Runner/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/testcasesXMLfiles/MercurryTravelsSanity.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/testDateOfReturnFiledVisibility.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/commonLibs/contracts/Idropdown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/commonLibs/implementation/dropdownControls.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/Branch.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/Runner/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/stepsTestBranchAddress.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/testBranchAddress.feature" />
       </list>
     </option>
   </component>
@@ -360,6 +341,46 @@
               <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="ModulerFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mercuryTravel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModulerFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="commonLibs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModulerFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="commonLibs" type="462c0819:PsiDirectoryNode" />
+              <item name="contracts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModulerFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="commonLibs" type="462c0819:PsiDirectoryNode" />
+              <item name="implementation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModulerFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModulerFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -383,6 +404,33 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mercuryTravels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModulerFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mercuryTravels" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumberFeatures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModulerFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mercuryTravels" type="462c0819:PsiDirectoryNode" />
+              <item name="Runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModulerFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mercuryTravels" type="462c0819:PsiDirectoryNode" />
+              <item name="Steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ModulerFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -437,7 +485,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.1150748" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/Branch.feature" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -474,7 +522,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.testBranchAddress.testBranchAddress">
+  <component name="RunManager" selected="TestNG.TestRunner">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -496,7 +544,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="Scenario: verify branch has correct address" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify branch has correct address in HomePage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -504,12 +552,12 @@
         </pattern>
       </extension>
       <option name="myFilePath" value="$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/Branch.feature" />
-      <option name="GLUE" value="test/java/com/mercuryTravels/Steps" />
-      <option name="myNameFilter" value="^verify branch has correct address$" />
-      <option name="myGeneratedName" value="Scenario: verify branch has correct address" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="myNameFilter" value="^Verify branch has correct address in HomePage$" />
+      <option name="myGeneratedName" value="Scenario: Verify branch has correct address in HomePage" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^verify branch has correct address$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify branch has correct address in HomePage$&quot;" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -759,19 +807,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Cucumber java.Unnamed (1)" />
       <item index="1" class="java.lang.String" itemvalue="Cucumber java.Unnamed" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: verify branch has correct address" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.testBranchAddress.testBranchAddress" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.testBranchAddress" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.TestRunner" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.C:/Users/pcadmin/IdeaProjects/ModulerFramework/src/testcasesXMLfiles/MercurryTravelsSanity.xml" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.testBranchAddress.testBranchAddress" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.testBranchAddress" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TestRunner" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.C:/Users/pcadmin/IdeaProjects/ModulerFramework/src/testcasesXMLfiles/MercurryTravelsSanity.xml" />
+      <item index="6" class="java.lang.String" itemvalue="Cucumber java.Scenario: Verify branch has correct address in HomePage" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.testBranchAddress.testBranchAddress" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/pcadmin/IdeaProjects/ModulerFramework/src/testcasesXMLfiles/MercurryTravelsSanity.xml" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.testBranchAddress" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.TestRunner" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: verify branch has correct address" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestRunner" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: Verify branch has correct address in HomePage" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.testBranchAddress.testBranchAddress" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/pcadmin/IdeaProjects/ModulerFramework/src/testcasesXMLfiles/MercurryTravelsSanity.xml" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.testBranchAddress" />
       </list>
     </recent_temporary>
   </component>
@@ -821,35 +869,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_pcadmin_IdeaProjects_ModulerFramework_src_testcasesXMLfiles_MercurryTravelsSanity_xml - 2018.08.18 at 21h 25m 07s.xml">
-      <configuration name="C:/Users/pcadmin/IdeaProjects/ModulerFramework/src/testcasesXMLfiles/MercurryTravelsSanity.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_pcadmin_IdeaProjects_ModulerFramework_src_testcasesXMLfiles_MercurryTravelsSanity_xml - 2018.08.19 at 09h 47m 47s.xml">
-      <configuration name="C:/Users/pcadmin/IdeaProjects/ModulerFramework/src/testcasesXMLfiles/MercurryTravelsSanity.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2018.08.18 at 19h 26m 06s.xml">
+    <history-entry file="TestRunner - 2018.08.20 at 22h 21m 16s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.08.18 at 19h 27m 18s.xml">
+    <history-entry file="TestRunner - 2018.08.20 at 22h 24m 05s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.08.18 at 19h 27m 35s.xml">
+    <history-entry file="TestRunner - 2018.08.20 at 22h 27m 16s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.08.18 at 19h 28m 24s.xml">
+    <history-entry file="TestRunner - 2018.08.20 at 22h 32m 59s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.08.18 at 19h 28m 51s.xml">
+    <history-entry file="TestRunner - 2018.08.20 at 22h 36m 20s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testBranchAddress - 2018.08.18 at 21h 16m 38s.xml">
-      <configuration name="testBranchAddress" configurationId="TestNG" />
+    <history-entry file="TestRunner - 2018.08.20 at 22h 39m 11s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.18 at 21h 09m 02s.xml">
-      <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
+    <history-entry file="TestRunner - 2018.08.20 at 22h 48m 48s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testBranchAddress_testBranchAddress - 2018.08.19 at 10h 59m 00s.xml">
-      <configuration name="testBranchAddress.testBranchAddress" configurationId="TestNG" />
+    <history-entry file="TestRunner - 2018.08.20 at 22h 55m 39s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.20 at 22h 57m 36s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.20 at 23h 02m 35s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -861,11 +909,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51653546" sideWeight="0.22647059" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28503937" sideWeight="0.7735294" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32283464" sideWeight="0.7735294" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2977941" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21397059" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -875,7 +924,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -890,158 +938,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/contracts/Icheckbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/contracts/IcommonElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="29" column="99" lean-forward="false" selection-start-line="29" selection-start-column="99" selection-end-line="29" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/implementation/checkboxControls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcasesXMLfiles/testngExample2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNGDemo/TestingClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/implementation/commonElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHolidayPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchHolidayPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/VisibilityOfReturnDate.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/implementation/ListenerTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/ITestListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/waitUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar!/org/openqa/selenium/TakesScreenshot.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-633">
-          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/TakeScreenShotWhenTestFails.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNGDemo/TestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/verifyDateOfReturnFiledVisibility.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/Sample.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/contracts/IListenerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/implementation/commonDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcasesXMLfiles/testngPackageExecution.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/contracts/ITakeScreenShots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchResultTestNG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="56" column="65" lean-forward="false" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchHolidayPackageCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNGDemo/TestingClass2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtFlightsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1078,20 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="145" column="16" lean-forward="false" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/Xls_Reader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2274">
@@ -1104,13 +991,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/property.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/getTestData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -1118,27 +998,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/ReadExcelData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/implementation/TakeScreenShots.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchHotel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1158,36 +1021,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/Branch.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHotelsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/MyStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/Runner/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        <state relative-caret-position="280">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testSearchHotel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcasesXMLfiles/MercurryTravelsSanity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcasesXMLfiles/MercurryTravelsRegression.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="301">
           <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="69" column="35" lean-forward="false" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1200,18 +1073,240 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcasesXMLfiles/MercurryTravelsSanity.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar!/cucumber/api/java/en/Then.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHotelsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/contracts/Idropdown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="16" column="74" lean-forward="false" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/ReadExcelData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/api/DataTable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/xstream/LocalizedXStreams.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="866" column="0" lean-forward="false" selection-start-line="866" selection-start-column="0" selection-end-line="866" selection-end-column="0" />
+          <folding>
+            <element signature="e#31382#31383#0" expanded="false" />
+            <element signature="e#31427#31428#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/table/TableConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar!/cucumber/deps/com/thoughtworks/xstream/core/util/WeakCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="1474" column="0" lean-forward="false" selection-start-line="1474" selection-start-column="0" selection-end-line="1474" selection-end-column="0" />
+          <folding>
+            <element signature="e#22786#22787#0" expanded="false" />
+            <element signature="e#22821#22822#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar!/cucumber/deps/com/thoughtworks/xstream/converters/basic/StringConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar!/cucumber/deps/com/thoughtworks/xstream/converters/SingleValueConverterWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="2587" column="0" lean-forward="false" selection-start-line="2587" selection-start-column="0" selection-end-line="2587" selection-end-column="0" />
+          <folding>
+            <element signature="e#102700#102701#0" expanded="false" />
+            <element signature="e#102764#102765#0" expanded="false" />
+            <element signature="e#102875#102876#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/ref/WeakReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="e#1456#1457#0" expanded="false" />
+            <element signature="e#1487#1488#0" expanded="false" />
+            <element signature="e#1898#1899#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/ref/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+          <folding>
+            <element signature="e#10903#10904#0" expanded="false" />
+            <element signature="e#10939#10940#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/WeakHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="466" column="0" lean-forward="false" selection-start-line="466" selection-start-column="0" selection-end-line="466" selection-end-column="0" />
+          <folding>
+            <element signature="e#10562#10563#0" expanded="false" />
+            <element signature="e#10615#10616#0" expanded="false" />
+            <element signature="e#11837#11838#0" expanded="false" />
+            <element signature="e#11874#11875#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/ref/ReferenceQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="93" column="23" lean-forward="false" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar!/cucumber/api/testng/AbstractTestNGCucumberTests.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar!/cucumber/api/testng/TestNGCucumberRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/implementation/dropdownControls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/Branch.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercuryTravel/MtHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="154" column="60" lean-forward="false" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commonLibs/implementation/commonDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/commonUtils/property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/MyStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="72" column="68" lean-forward="false" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1220,18 +1315,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/testBranchAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="136">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/cucumberFeatures/testBranchAddress.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="84" lean-forward="false" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screenshots/Verify branch has correct address in HomePage.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/Runner/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="30" column="63" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mercuryTravels/Steps/stepsTestBranchAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="69" column="35" lean-forward="false" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding />
         </state>
       </provider>

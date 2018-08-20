@@ -14,4 +14,5 @@ public interface Idropdown {
     public List<WebElement> getAllOptions(WebElement element) throws Exception;
     public List<WebElement> getAllSelectedOptions(WebElement element) throws Exception;
     public WebElement getFirstSelectedOption(WebElement element)throws Exception;
+    public String getSelectedItemName(WebElement element)throws Exception;
 }

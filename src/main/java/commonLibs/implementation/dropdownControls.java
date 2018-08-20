@@ -49,4 +49,9 @@ public class dropdownControls implements Idropdown {
     public WebElement getFirstSelectedOption(WebElement element) throws Exception {
         return getDropdown(element).getFirstSelectedOption();
     }
+
+    @Override
+    public String getSelectedItemName(WebElement element) throws Exception {
+        return getDropdown(element).getFirstSelectedOption().getText();
+    }
 }

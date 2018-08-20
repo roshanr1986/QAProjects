@@ -147,6 +147,10 @@ public class MtHomePage {
         dropdown.selectByVisibleText(findABranchDropdown,branchName);
     }
 
+    public String getSelectedBranchName() throws Exception {
+        return dropdown.getSelectedItemName(findABranchDropdown);
+    }
+
     public String getBranchAddress() throws Exception {
         return comElement.getText(branchAddressExtractedText);
 

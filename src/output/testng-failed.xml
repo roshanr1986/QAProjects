@@ -6,7 +6,7 @@
       <class name="com.mercuryTravels.Runner.TestRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="feature"/>
+          <include name="feature" invocation-numbers="0"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- com.mercuryTravels.Runner.TestRunner -->
