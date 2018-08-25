@@ -129,17 +129,20 @@
                   </a> <!-- feature(test branch address) -->
                   <span class="method-name">feature</span>
                   <span class="parameters">(test branch address)</span>
-                  <div class="stack-trace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001xxx.] but found [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001.]
+                  <div class="stack-trace">cucumber.runtime.CucumberException: cucumber.runtime.CucumberException: When a hook declares an argument it must be of type cucumber.api.Scenario. public void com.mercuryTravels.Steps.hooks.initializeTest(com.mercuryTravels.Runner.BaseUtils) throws java.lang.Exception
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-Caused by: java.lang.AssertionError: expected [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001xxx.] but found [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001.]
-	at com.mercuryTravels.Steps.stepsTestBranchAddress.verifyTheAddressWithBranch(stepsTestBranchAddress.java:50)
-	at ✽.Then Verify the address with branch(testBranchAddress.feature:8)
-... Removed 30 stack frames
+Caused by: cucumber.runtime.CucumberException: When a hook declares an argument it must be of type cucumber.api.Scenario. public void com.mercuryTravels.Steps.hooks.initializeTest(com.mercuryTravels.Runner.BaseUtils) throws java.lang.Exception
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:52)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	... 25 more
+... Removed 24 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Feature)                  </em>
@@ -211,12 +214,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'com.mercuryTravels.Runner.TestRunner')
-data.setCell(0, 3, 45500);
+data.setCell(0, 3, 125);
 window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <span class="suite-total-time">Total running time: 125 ms</span>
               <div id="times-div-Default_Suite">
               </div> <!-- times-div-Default_Suite -->
             </div> <!-- times-div -->
@@ -251,11 +254,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">feature(test branch address)</span>
-                <span class="method-start">949 ms</span>
+                <span class="method-start">686 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">46458 ms</span>
+                <span class="method-start">827 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

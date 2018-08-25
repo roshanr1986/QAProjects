@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 20 23:01:48 IST 2018</td>
+<td>Started on:</td><td>Sat Aug 25 14:01:40 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>46 seconds (46480 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (905 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,20 +76,21 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.mercuryTravels.Runner.TestRunner.feature()'><b>feature</b><br>Test class: com.mercuryTravels.Runner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: test branch address</td>
-<td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001xxx.] but found [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001.]
+<td><div><pre>cucumber.runtime.CucumberException: cucumber.runtime.CucumberException: When a hook declares an argument it must be of type cucumber.api.Scenario. public void com.mercuryTravels.Steps.hooks.initializeTest(com.mercuryTravels.Runner.BaseUtils) throws java.lang.Exception
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-Caused by: java.lang.AssertionError: expected [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001xxx.] but found [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001.]
-	at com.mercuryTravels.Steps.stepsTestBranchAddress.verifyTheAddressWithBranch(stepsTestBranchAddress.java:50)
-	at ✽.Then Verify the address with branch(testBranchAddress.feature:8)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1671507048", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1671507048'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001xxx.] but found [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001.]
+Caused by: cucumber.runtime.CucumberException: When a hook declares an argument it must be of type cucumber.api.Scenario. public void com.mercuryTravels.Steps.hooks.initializeTest(com.mercuryTravels.Runner.BaseUtils) throws java.lang.Exception
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:52)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	... 25 more
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1030684756", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1030684756'><pre>cucumber.runtime.CucumberException: cucumber.runtime.CucumberException: When a hook declares an argument it must be of type cucumber.api.Scenario. public void com.mercuryTravels.Steps.hooks.initializeTest(com.mercuryTravels.Runner.BaseUtils) throws java.lang.Exception
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -116,20 +117,19 @@ Caused by: java.lang.AssertionError: expected [Mercury Travels Ltd.
 	at org.testng.TestNG.run(TestNG.java:1017)
 	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
 	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-Caused by: java.lang.AssertionError: expected [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001xxx.] but found [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001.]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at com.mercuryTravels.Steps.stepsTestBranchAddress.verifyTheAddressWithBranch(stepsTestBranchAddress.java:50)
-	at ✽.Then Verify the address with branch(testBranchAddress.feature:8)
+Caused by: cucumber.runtime.CucumberException: When a hook declares an argument it must be of type cucumber.api.Scenario. public void com.mercuryTravels.Steps.hooks.initializeTest(com.mercuryTravels.Runner.BaseUtils) throws java.lang.Exception
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:52)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	... 25 more
 </pre></div></td>
-<td>45</td>
-<td>com.mercuryTravels.Runner.TestRunner@17550481</td></tr>
+<td>0</td>
+<td>com.mercuryTravels.Runner.TestRunner@2c6a3f77</td></tr>
 </table><p>
 </body>
 </html>

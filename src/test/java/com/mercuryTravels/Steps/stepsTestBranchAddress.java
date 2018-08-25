@@ -1,6 +1,7 @@
 package com.mercuryTravels.Steps;
 
 import com.mercuryTravel.MtHomePage;
+import com.mercuryTravels.Runner.BaseUtils;
 import commonLibs.implementation.commonDriver;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
@@ -10,23 +11,30 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import utils.commonUtils.property;
 
-public class stepsTestBranchAddress {
+public class stepsTestBranchAddress extends BaseUtils {
 
-
-    public static WebDriver driver;
+    private BaseUtils setup;
+    public  WebDriver driver;
     public commonDriver comDriver;
     public  MtHomePage homepage;
     public String actualaddress;
     public String expectedaddress;
 
+    public stepsTestBranchAddress(BaseUtils setup) throws Exception {
+        this.driver=setup.driver;
+        this.comDriver=setup.comdriver;
+
+    }
 
 
     @Given("^I navigate MT homepage$")
     public void iNavigateMTHomepage() throws Throwable {
-        comDriver=new commonDriver("Chrome");
-        comDriver.openBrowserAndGetURL(property.url);
-        driver = comDriver.getDriver();
+       // System.out.println(base.stepInfo);
+        //comDriver=new commonDriver("Chrome");
+        //comDriver.openBrowserAndGetURL(property.url);
         System.out.println("I navigate MT homepage");
+
+
     }
 
     @And("^I select ([^\"]*)$")

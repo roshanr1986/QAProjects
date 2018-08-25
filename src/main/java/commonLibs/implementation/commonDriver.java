@@ -18,6 +18,7 @@ public class commonDriver implements Driver {
     private long elementDetectionTimeout;
 
     public WebDriver getDriver() {
+
         return driver;
     }
 

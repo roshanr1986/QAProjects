@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="46480" started-at="2018-08-20T17:31:48Z" finished-at="2018-08-20T17:32:34Z">
+  <suite name="Default Suite" duration-ms="905" started-at="2018-08-25T08:31:40Z" finished-at="2018-08-25T08:31:41Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.mercuryTravels.Runner.TestRunner@17550481]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.mercuryTravels.Runner.TestRunner@2c6a3f77]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="ModulerFramework" duration-ms="46480" started-at="2018-08-20T17:31:48Z" finished-at="2018-08-20T17:32:34Z">
+    <test name="ModulerFramework" duration-ms="905" started-at="2018-08-25T08:31:40Z" finished-at="2018-08-25T08:31:41Z">
       <class name="com.mercuryTravels.Runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.mercuryTravels.Runner.TestRunner@17550481]" name="setUpClass" is-config="true" duration-ms="679" started-at="2018-08-20T17:31:48Z" finished-at="2018-08-20T17:31:48Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.mercuryTravels.Runner.TestRunner@2c6a3f77]" name="setUpClass" is-config="true" duration-ms="545" started-at="2018-08-25T08:31:40Z" finished-at="2018-08-25T08:31:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.mercuryTravels.Runner.TestRunner@17550481]" name="feature" duration-ms="45500" started-at="2018-08-20T17:31:49Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-20T17:32:34Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.mercuryTravels.Runner.TestRunner@2c6a3f77]" name="feature" duration-ms="125" started-at="2018-08-25T08:31:40Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-25T08:31:40Z">
           <params>
             <param index="0">
               <value>
@@ -24,14 +24,10 @@
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[java.lang.AssertionError: expected [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001xxx.] but found [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001.]]]>
+              <![CDATA[cucumber.runtime.CucumberException: When a hook declares an argument it must be of type cucumber.api.Scenario. public void com.mercuryTravels.Steps.hooks.initializeTest(com.mercuryTravels.Runner.BaseUtils) throws java.lang.Exception]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001xxx.] but found [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001.]
+              <![CDATA[cucumber.runtime.CucumberException: cucumber.runtime.CucumberException: When a hook declares an argument it must be of type cucumber.api.Scenario. public void com.mercuryTravels.Steps.hooks.initializeTest(com.mercuryTravels.Runner.BaseUtils) throws java.lang.Exception
 at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -58,24 +54,23 @@ at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
 at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-Caused by: java.lang.AssertionError: expected [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001xxx.] but found [Mercury Travels Ltd.
-125, Infantry Road, Bangalore 560 001.]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.mercuryTravels.Steps.stepsTestBranchAddress.verifyTheAddressWithBranch(stepsTestBranchAddress.java:50)
-at ✽.Then Verify the address with branch(testBranchAddress.feature:8)
+Caused by: cucumber.runtime.CucumberException: When a hook declares an argument it must be of type cucumber.api.Scenario. public void com.mercuryTravels.Steps.hooks.initializeTest(com.mercuryTravels.Runner.BaseUtils) throws java.lang.Exception
+at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:52)
+at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
+at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+... 25 more
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.mercuryTravels.Runner.TestRunner@17550481]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2018-08-20T17:32:34Z" finished-at="2018-08-20T17:32:34Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.mercuryTravels.Runner.TestRunner@2c6a3f77]" name="tearDownClass" is-config="true" duration-ms="62" started-at="2018-08-25T08:31:40Z" finished-at="2018-08-25T08:31:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
