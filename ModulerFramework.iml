@@ -163,17 +163,5 @@
     <orderEntry type="library" name="Maven: info.cukes:cucumber-jvm-deps:1.0.5" level="project" />
     <orderEntry type="library" name="Maven: info.cukes:gherkin:2.12.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.picocontainer:picocontainer:2.15" level="project" />
-    <orderEntry type="library" name="Maven: com.poi.external:poi:3.17" level="project" />
-    <orderEntry type="library" name="Maven: com.poi.external:poi-examples:3.17" level="project" />
-    <orderEntry type="library" name="Maven: com.poi.external:poi-excelant:3.17" level="project" />
-    <orderEntry type="library" name="Maven: com.poi.external:poi-ooxml:3.17" level="project" />
-    <orderEntry type="library" name="Maven: com.poi.external:poi-ooxml-schemas:3.17" level="project" />
-    <orderEntry type="library" name="Maven: com.poi.external:poi-scratchpad:3.17" level="project" />
-    <orderEntry type="library" name="Maven: com.poi.external:commons-codec:3.17" level="project" />
-    <orderEntry type="library" name="Maven: com.poi.external:commons-collections:3.17" level="project" />
-    <orderEntry type="library" name="Maven: com.poi.external:commons-logging:3.17" level="project" />
-    <orderEntry type="library" name="Maven: com.poi.external:log4j:3.17" level="project" />
-    <orderEntry type="library" name="Maven: com.poi.external:curvesapi:1.04" level="project" />
-    <orderEntry type="library" name="Maven: com.poi.external:xmlbeans:1.04" level="project" />
   </component>
 </module>
