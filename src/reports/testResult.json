@@ -1,0 +1,375 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22303545262,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify branch has correct address in HomePage",
+        "description": "",
+        "id": "test-branch-address;verify-branch-has-correct-address-in-homepage;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 211915,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 149382699,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate MT homepage",
+            "match": {
+              "location": "stepsTestBranchAddress.iNavigateMTHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207737862,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I select Agra",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agra",
+                  "offset": 9
+                }
+              ],
+              "location": "stepsTestBranchAddress.iSelectBranchname(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 349782018,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fetch the Mercury Travels Ltd. and C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mercury Travels Ltd.",
+                  "offset": 12
+                },
+                {
+                  "val": "C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001.",
+                  "offset": 37
+                }
+              ],
+              "location": "stepsTestBranchAddress.iFetchTheAddressprefixAndAddresssuffix(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3198652,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the address with branch",
+            "match": {
+              "location": "stepsTestBranchAddress.verifyTheAddressWithBranch()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 268831019,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "stepsTestBranchAddress.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 21695665640,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify branch has correct address in HomePage",
+        "description": "",
+        "id": "test-branch-address;verify-branch-has-correct-address-in-homepage;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 86336,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 239688,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate MT homepage",
+            "match": {
+              "location": "stepsTestBranchAddress.iNavigateMTHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159895745,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I select Ahmedabad",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ahmedabad",
+                  "offset": 9
+                }
+              ],
+              "location": "stepsTestBranchAddress.iSelectBranchname(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 402676290,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fetch the Mercury Travels Ltd. and 103 B Abhijeet 1, 1st Floor, Mithakali Six Roads, Ahmedabad 380 006.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mercury Travels Ltd.",
+                  "offset": 12
+                },
+                {
+                  "val": "103 B Abhijeet 1, 1st Floor, Mithakali Six Roads, Ahmedabad 380 006.",
+                  "offset": 37
+                }
+              ],
+              "location": "stepsTestBranchAddress.iFetchTheAddressprefixAndAddresssuffix(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78487,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the address with branch",
+            "match": {
+              "location": "stepsTestBranchAddress.verifyTheAddressWithBranch()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 594486100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "stepsTestBranchAddress.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 23772909632,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify branch has correct address in HomePage",
+        "description": "",
+        "id": "test-branch-address;verify-branch-has-correct-address-in-homepage;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 86335,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 242103,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate MT homepage",
+            "match": {
+              "location": "stepsTestBranchAddress.iNavigateMTHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 182496409,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I select Bangalore",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bangalore",
+                  "offset": 9
+                }
+              ],
+              "location": "stepsTestBranchAddress.iSelectBranchname(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 293433709,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fetch the Mercury Travels Ltd. and 125, Infantry Road, Bangalore 560 001.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mercury Travels Ltd.",
+                  "offset": 12
+                },
+                {
+                  "val": "125, Infantry Road, Bangalore 560 001.",
+                  "offset": 37
+                }
+              ],
+              "location": "stepsTestBranchAddress.iFetchTheAddressprefixAndAddresssuffix(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 77884,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the address with branch",
+            "match": {
+              "location": "stepsTestBranchAddress.verifyTheAddressWithBranch()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 272422710,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "stepsTestBranchAddress.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "test branch address",
+    "description": "",
+    "id": "test-branch-address",
+    "keyword": "Feature",
+    "uri": "testBranchAddress.feature"
+  }
+]

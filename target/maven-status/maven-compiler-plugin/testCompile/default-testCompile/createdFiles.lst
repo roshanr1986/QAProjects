@@ -1,11 +1,14 @@
+com\mercuryTravels\Steps\stepsTestBranchAddress.class
 com\mercuryTravels\Steps\MyStepdefs.class
 com\mercuryTravels\testSearchHolidayPackageCount.class
 com\mercuryTravels\Runner\TestRunner.class
 com\mercuryTravels\testSearchHotel.class
+com\mercuryTravels\Steps\hooks.class
 com\mercuryTravels\testSearchHolidayPackage.class
 com\mercuryTravels\testTollFreeNumber.class
 DemoCommonDriver.class
 testNGDemo\TestingClass2.class
+com\mercuryTravels\Runner\BaseUtils.class
 DemoSearchAmazonPOMStyle3.class
 testMtGotoBuyForex.class
 testNGDemo\TestListener.class

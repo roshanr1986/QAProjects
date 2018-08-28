@@ -8,7 +8,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
         monochrome = false,
         strict = false,
         dryRun = false,
-        tags = {"@SmokeTest"}
+        tags = {"@SmokeTest"},
+        format = {"json:target/cucumber.json","html:src/site/cucumber-pretty"}
     )
 
 public class TestRunner extends AbstractTestNGCucumberTests{
