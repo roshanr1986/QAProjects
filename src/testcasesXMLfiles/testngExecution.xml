@@ -3,8 +3,8 @@
 <suite name="Sanity Test suite">
     <test name="Class Test Execution">
         <classes>
-            <class name="testNGDemo.TestingClass"></class>
-            <class name="testNGDemo.TestingClass2"></class>
+            <class name="testNGDemo.TestSkipDemo"></class>
+            <class name="testNGDemo.TestSkipDemo2"></class>
         </classes>
     </test>
 </suite>
