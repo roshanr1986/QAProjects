@@ -1,25 +1,17 @@
 package com.mercuryTravels;
 
 import com.mercuryTravel.MtHomePage;
-import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
-import commonLibs.implementation.TakeScreenShots;
 import commonLibs.implementation.commonDriver;
 import extentReports.ExtentReportsClass;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import utils.commonUtils.ReadExcelData;
-import utils.commonUtils.getTestData;
 import utils.commonUtils.property;
-
-import java.io.File;
 import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.Iterator;
+
 
 public class testBranchAddress {
 
@@ -31,7 +23,7 @@ public class testBranchAddress {
     public ExtentTest test;
 
 
-    @BeforeTest
+    @BeforeClass
     public void beforeTest() { //runs ONLY ONCE before all tests starts
         reports = new ExtentReportsClass();
         reports.setupReports();
@@ -68,7 +60,7 @@ public class testBranchAddress {
         reports.setLogStatus("Selected branch Name - "+SelectedBranchName);
 
         System.out.println(homePage.getBranchAddress());
-        Assert.assertEquals(homePage.getBranchAddress(),ExpectedAddress);
+        Assert.assertEquals(ExpectedAddress, homePage.getBranchAddress());
         reports.setLogStatus("Comparing addresses "+homePage.getBranchAddress()+" with "+ExpectedAddress);
 
     }
@@ -79,7 +71,7 @@ public class testBranchAddress {
         comDriver.closeBrowser();
     }
 
-    @AfterTest
+    @AfterClass
     public void endReport(){
         reports.endReport();
     }

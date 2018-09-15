@@ -8,19 +8,16 @@ package com.mercuryTravels;
 import com.mercuryTravel.MtFlightsPage;
 import com.mercuryTravel.MtHomePage;
 import com.relevantcodes.extentreports.ExtentTest;
-import commonLibs.implementation.TakeScreenShots;
 import commonLibs.implementation.commonDriver;
 import extentReports.ExtentReportsClass;
+import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
-import org.testng.Reporter;
 import org.testng.annotations.*;
-import testNGDemo.TestListener;
 import utils.commonUtils.property;
-
 import java.lang.reflect.Method;
-import java.sql.Timestamp;
+
 
 public class testDateOfReturnFiledVisibility {
     public WebDriver driver;
@@ -28,7 +25,7 @@ public class testDateOfReturnFiledVisibility {
     public ExtentReportsClass reports;
     public ExtentTest test;
 
-    @BeforeTest
+    @BeforeClass
     public void beforeTest() { //runs ONLY ONCE before all tests starts
         reports = new ExtentReportsClass();
         reports.setupReports();
@@ -42,26 +39,37 @@ public class testDateOfReturnFiledVisibility {
     }
 
 
-    @Test(priority = 200, enabled = false)
+    @Test(priority = 200)
     public void verifyDateOfReturnFiledVisibility(){
 
         try {
             comDriver= new commonDriver("chrome");
             comDriver.openBrowserAndGetURL(property.url);
-             driver=comDriver.getDriver();
-            //TestListener listener = new TestListener(driver);
+            driver=comDriver.getDriver();
+            reports.setLogStatus("Navigated to URL "+property.url);
+
 
             MtHomePage homePage = new MtHomePage(driver);
             MtFlightsPage flightsPage= new MtFlightsPage(driver);
 
             //navigate to flights section
             homePage.goToFlights();
+            reports.setLogStatus("Navigated to Flights page");
 
-            //click on one way radio button
-            flightsPage.clickOneWayOption();
+            //checking if element is present
+            if(flightsPage.visibilityOfOneWayOption()){
 
-            //validate if the return date is not displayed
-            Assert.assertFalse(flightsPage.visibilityOfReturnDateElement());
+                //click on one way radio button
+                flightsPage.clickOneWayOption();
+                reports.setLogStatus("Clicked on 'One way' Radio button ");
+
+                //validate if the return date is not displayed
+                Assert.assertFalse(flightsPage.visibilityOfReturnDateElement());
+            } else {
+                reports.setLogStatus("'One way' Radio button is not visible");
+                throw new ElementNotVisibleException("One way option is not visible");
+
+            }
 
 
         } catch (Exception e) {
@@ -74,17 +82,19 @@ public class testDateOfReturnFiledVisibility {
 
         comDriver= new commonDriver("chrome");
         comDriver.openBrowserAndGetURL(property.url);
+        reports.setLogStatus("Navigated to URL "+property.url);
+
         WebDriver driver=comDriver.getDriver();
+
 
         MtHomePage homePage = new MtHomePage(driver);
         MtFlightsPage flightsPage= new MtFlightsPage(driver);
 
         //navigate to flights section
         homePage.goToFlights();
+        reports.setLogStatus("Navigated to Flights page");
 
         Assert.assertTrue(flightsPage.statusOfRoundTrip());
-
-
 
     }
 

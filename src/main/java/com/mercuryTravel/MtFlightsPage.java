@@ -44,6 +44,14 @@ public class MtFlightsPage {
         }
     }
 
+    public boolean visibilityOfOneWayOption() throws Exception{
+        if(comElement.isElementVisible(oneWayRadioButton)){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public WebElement getDateOfReturnElement(){
         return returnDatePicker;
     }
@@ -51,7 +59,9 @@ public class MtFlightsPage {
     public boolean visibilityOfReturnDateElement() throws Exception{
         if (comElement.isElementVisible(returnDatePicker)){
             return true;
-        } else return false;
+        } else {
+            return false;
+        }
     }
 
     public boolean visibilityOfCheckInDateElement() throws Exception{

@@ -8,7 +8,7 @@
           <include name="tearDown"/>
           <include name="endReport"/>
           <include name="beforeTest"/>
-          <include name="testBranchAddress" invocation-numbers="0"/>
+          <include name="testBranchAddress" invocation-numbers="2"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.mercuryTravels.testBranchAddress -->

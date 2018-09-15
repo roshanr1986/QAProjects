@@ -1,23 +1,27 @@
 package extentReports;
 
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import commonLibs.implementation.TakeScreenShots;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
-import org.testng.annotations.BeforeTest;
 import utils.commonUtils.getTimeStamp;
+import utils.commonUtils.property;
 
 import java.io.File;
+import java.io.IOException;
 
 public class ExtentReportsClass {
     public ExtentReports extent;
     public ExtentTest logger;
 
     public void setupReports(){
-        extent = new ExtentReports(System.getProperty("user.dir")+"/test-output/SMTExtentReportSanity.html", false);
+        //getting timestamp to be entered into the extent report's fileName which creates a new report every time reports are run
+        getTimeStamp time = new getTimeStamp();
+        String timestamp = time.getTimeStamp().toString().trim();
+
+        extent = new ExtentReports(System.getProperty("user.dir")+"/test-output/SMTExtentReportSanity_9.15-2.html", false);
         extent.addSystemInfo("Host Name","Roshan");
         extent.addSystemInfo("Environment","Automation testing");
         extent.addSystemInfo("User Name","Roshan Ranasinghe");
@@ -36,8 +40,19 @@ public class ExtentReportsClass {
             TakeScreenShots camera = new TakeScreenShots(driver);
             getTimeStamp timeStamp = new getTimeStamp();
             String time = timeStamp.getTimeStamp();
-            camera.captureAndSaveScreenShots(result.getName().toString()+"_"+time);
+            String fileName = result.getName().toString();
+            camera.captureAndSaveScreenShots(fileName+"_"+time);
 
+            //checking if screenshot has been saved and its available
+            String filePathString = property.screenshotImageFilePath+fileName+"_"+time+property.screenshotImageFileExtension;
+            File f = new File(filePathString);
+                if(f.exists() && !f.isDirectory()) {
+
+                    //attaching screenshot file to Extent report
+                    logger.log(LogStatus.FAIL,logger.addScreenCapture(filePathString));
+                } else {
+                    throw new IOException("Screenshot file is not available at - "+filePathString);
+                }
 
         } else if (result.getStatus() == ITestResult.SKIP) {
             //logger = extent.startTest(result.getName().toString());
@@ -47,10 +62,10 @@ public class ExtentReportsClass {
             logger.log(LogStatus.PASS, "Test PASSED " + result.getName());
         }
         extent.endTest(logger);
+
     }
 
     public void endReport(){
-
         extent.flush();
     }
 
