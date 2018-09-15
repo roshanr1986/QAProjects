@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
   <test thread-count="5" name="ModulerFramework(failed)">
     <classes>
-      <class name="testNGDemo.TestSkipDemo">
+      <class name="com.mercuryTravels.testBranchAddress">
         <methods>
-          <include name="preconditions"/>
-          <include name="afterMethod"/>
-          <include name="testCode"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="beforeTest"/>
+          <include name="testBranchAddress" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- testNGDemo.TestSkipDemo -->
+      </class> <!-- com.mercuryTravels.testBranchAddress -->
     </classes>
   </test> <!-- ModulerFramework(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

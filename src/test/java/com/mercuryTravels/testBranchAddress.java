@@ -28,12 +28,20 @@ public class testBranchAddress {
     public String testCaseName;
 
     public ExtentReportsClass reports;
+    public ExtentTest test;
 
 
     @BeforeTest
-    public void beforeMethod() {
+    public void beforeTest() { //runs ONLY ONCE before all tests starts
         reports = new ExtentReportsClass();
         reports.setupReports();
+
+    }
+
+    @BeforeMethod
+    public void beforeMethod(Method method){ // runs EVERY TIME BEFORE start of test execution
+        String testCaseName = method.getName().toString();
+        reports.startTest(testCaseName);
     }
 
     @DataProvider(name="addressData")
@@ -48,6 +56,8 @@ public class testBranchAddress {
 
         comDriver= new commonDriver("chrome");
         comDriver.openBrowserAndGetURL(property.url);
+
+        reports.setLogStatus("Driver Navigated to "+property.url);
         driver=comDriver.getDriver();
 
         //initializing the object of homepage page object
@@ -55,8 +65,11 @@ public class testBranchAddress {
 
         //start of test script
         homePage.selectBranch(SelectedBranchName);
+        reports.setLogStatus("Selected branch Name - "+SelectedBranchName);
+
         System.out.println(homePage.getBranchAddress());
         Assert.assertEquals(homePage.getBranchAddress(),ExpectedAddress);
+        reports.setLogStatus("Comparing addresses "+homePage.getBranchAddress()+" with "+ExpectedAddress);
 
     }
 
@@ -64,17 +77,11 @@ public class testBranchAddress {
     public void tearDown(ITestResult result) throws Exception {
         reports.getResult(result,driver);
         comDriver.closeBrowser();
-
     }
 
     @AfterTest
     public void endReport(){
         reports.endReport();
-
     }
-
-
-
-
 
 }

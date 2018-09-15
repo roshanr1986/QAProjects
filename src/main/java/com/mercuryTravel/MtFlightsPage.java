@@ -10,10 +10,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 public class MtFlightsPage {
 
     //defining elements
-    @FindBy(xpath = "//input[@id='tripType' and @value='R']")
+    @FindBy(xpath = "//div[@class='col-md-10 duration']//input[@name='tripType' and @value='R']")
     private WebElement roundTripRadioButton;
 
-    @FindBy(xpath = "//input[@id='tripType' and @value='S']")
+    @FindBy(xpath = "//div[@class='col-md-10 duration']//input[@name='tripType' and @value='S']")
     private WebElement oneWayRadioButton;
 
     @FindBy(xpath = "//input[@id='dpf2']")

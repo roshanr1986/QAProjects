@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Sanity Test suite]">
-  <test thread-count="5" name="Class Test Execution(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Mercurry travels Sanity Test suite]">
+  <test thread-count="5" name="Test Extent reports(failed)">
     <classes>
-      <class name="testNGDemo.TestSkipDemo2">
+      <class name="com.mercuryTravels.testBranchAddress">
         <methods>
-          <include name="testInAnotherClass"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="beforeTest"/>
+          <include name="testBranchAddress" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- testNGDemo.TestSkipDemo2 -->
-      <class name="testNGDemo.TestSkipDemo">
-        <methods>
-          <include name="preconditions"/>
-          <include name="afterMethod"/>
-          <include name="testCode"/>
-        </methods>
-      </class> <!-- testNGDemo.TestSkipDemo -->
+      </class> <!-- com.mercuryTravels.testBranchAddress -->
     </classes>
-  </test> <!-- Class Test Execution(failed) -->
-</suite> <!-- Failed suite [Sanity Test suite] -->
+  </test> <!-- Test Extent reports(failed) -->
+</suite> <!-- Failed suite [Mercurry travels Sanity Test suite] -->

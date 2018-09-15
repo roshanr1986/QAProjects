@@ -1,65 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" ignored="0" total="4" passed="2">
+<testng-results skipped="0" failed="1" ignored="1" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Sanity Test suite" duration-ms="85" started-at="2018-09-12T13:13:21Z" finished-at="2018-09-12T13:13:21Z">
+  <suite name="Mercurry travels Sanity Test suite" duration-ms="73076" started-at="2018-09-13T15:44:40Z" finished-at="2018-09-13T15:45:53Z">
     <groups>
-      <group name="A">
-        <method signature="TestSkipDemo.testCode()[pri:0, instance:testNGDemo.TestSkipDemo@67b64c45]" name="testCode" class="testNGDemo.TestSkipDemo"/>
-      </group> <!-- A -->
     </groups>
-    <test name="Class Test Execution" duration-ms="85" started-at="2018-09-12T13:13:21Z" finished-at="2018-09-12T13:13:21Z">
-      <class name="testNGDemo.TestSkipDemo2">
-        <test-method status="SKIP" signature="testInAnotherClass()[pri:0, instance:testNGDemo.TestSkipDemo2@4411d970]" name="testInAnotherClass" duration-ms="0" depends-on-groups="A" started-at="2018-09-12T13:13:21Z" finished-at="2018-09-12T13:13:21Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestSkipDemo2.testInAnotherClass()[pri:0, instance:testNGDemo.TestSkipDemo2@4411d970] depends on not successfully finished methods in group "A"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestSkipDemo2.testInAnotherClass()[pri:0, instance:testNGDemo.TestSkipDemo2@4411d970] depends on not successfully finished methods in group "A"
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
-at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+    <test name="Test Extent reports" duration-ms="73076" started-at="2018-09-13T15:44:40Z" finished-at="2018-09-13T15:45:53Z">
+      <class name="com.mercuryTravels.testDateOfReturnFiledVisibility">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@2f7a2457]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-13T15:45:35Z" finished-at="2018-09-13T15:45:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mercuryTravels.testDateOfReturnFiledVisibility.verifyDefaultSelectedTrip() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInAnotherClass -->
-      </class> <!-- testNGDemo.TestSkipDemo2 -->
-      <class name="testNGDemo.TestSkipDemo">
-        <test-method status="PASS" signature="preconditions()[pri:0, instance:testNGDemo.TestSkipDemo@67b64c45]" name="preconditions" duration-ms="0" started-at="2018-09-12T13:13:21Z" finished-at="2018-09-12T13:13:21Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyDefaultSelectedTrip()[pri:100, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@2f7a2457]" name="verifyDefaultSelectedTrip" duration-ms="15890" started-at="2018-09-13T15:45:35Z" finished-at="2018-09-13T15:45:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- preconditions -->
-        <test-method status="FAIL" signature="testCode()[pri:0, instance:testNGDemo.TestSkipDemo@67b64c45]" name="testCode" duration-ms="0" started-at="2018-09-12T13:13:21Z" depends-on-methods="testNGDemo.TestSkipDemo.preconditions" finished-at="2018-09-12T13:13:21Z">
+        </test-method> <!-- verifyDefaultSelectedTrip -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@2f7a2457]" name="tearDown" is-config="true" duration-ms="2107" started-at="2018-09-13T15:45:51Z" finished-at="2018-09-13T15:45:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDefaultSelectedTrip status=SUCCESS method=testDateOfReturnFiledVisibility.verifyDefaultSelectedTrip()[pri:100, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@2f7a2457] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@2f7a2457]" name="endReport" is-config="true" duration-ms="420" started-at="2018-09-13T15:45:53Z" finished-at="2018-09-13T15:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.mercuryTravels.testDateOfReturnFiledVisibility -->
+      <class name="com.mercuryTravels.testBranchAddress">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.mercuryTravels.testBranchAddress@edf4efb]" name="beforeTest" is-config="true" duration-ms="666" started-at="2018-09-13T15:44:40Z" finished-at="2018-09-13T15:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@2f7a2457]" name="beforeTest" is-config="true" duration-ms="68" started-at="2018-09-13T15:44:41Z" finished-at="2018-09-13T15:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mercuryTravels.testBranchAddress@edf4efb]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-13T15:44:42Z" finished-at="2018-09-13T15:44:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mercuryTravels.testBranchAddress.testBranchAddress(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@edf4efb]" name="testBranchAddress" duration-ms="18409" started-at="2018-09-13T15:44:42Z" data-provider="addressData" finished-at="2018-09-13T15:45:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Agra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mercury Travels Ltd.
+C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001xx.]]>
+              </value>
+            </param>
+          </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [10] but found [5]]]>
+              <![CDATA[expected [Mercury Travels Ltd.
+C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001xx.] but found [Mercury Travels Ltd.
+C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001.]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [10] but found [5]
+              <![CDATA[java.lang.AssertionError: expected [Mercury Travels Ltd.
+C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001xx.] but found [Mercury Travels Ltd.
+C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001.]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:652)
-at org.testng.Assert.assertEquals(Assert.java:662)
-at testNGDemo.TestSkipDemo.testCode(TestSkipDemo.java:27)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.mercuryTravels.testBranchAddress.testBranchAddress(testBranchAddress.java:71)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,45 +118,101 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCode -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testNGDemo.TestSkipDemo@67b64c45]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-12T13:13:21Z" finished-at="2018-09-12T13:13:21Z">
+        </test-method> <!-- testBranchAddress -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@edf4efb]" name="tearDown" is-config="true" duration-ms="888" started-at="2018-09-13T15:45:00Z" finished-at="2018-09-13T15:45:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tearDown status=SUCCESS method=TestSkipDemo.tearDown()[pri:0, instance:testNGDemo.TestSkipDemo@67b64c45] output={null}]]]>
+                <![CDATA[[TestResult name=testBranchAddress status=FAILURE method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@edf4efb] output={null}]]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testNGDemo.TestSkipDemo@67b64c45]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-12T13:13:21Z" finished-at="2018-09-12T13:13:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=preconditions status=SUCCESS method=TestSkipDemo.preconditions()[pri:0, instance:testNGDemo.TestSkipDemo@67b64c45] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGDemo.TestSkipDemo@67b64c45]" name="tearDown" duration-ms="0" started-at="2018-09-12T13:13:21Z" finished-at="2018-09-12T13:13:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testNGDemo.TestSkipDemo@67b64c45]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-12T13:13:21Z" finished-at="2018-09-12T13:13:21Z">
+        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@edf4efb]" name="testBranchAddress" duration-ms="17927" started-at="2018-09-13T15:45:01Z" data-provider="addressData" finished-at="2018-09-13T15:45:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCode status=FAILURE method=TestSkipDemo.testCode()[pri:0, instance:testNGDemo.TestSkipDemo@67b64c45] output={null}]]]>
+                <![CDATA[Ahmedabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mercury Travels Ltd.
+103 B Abhijeet 1, 1st Floor, Mithakali Six Roads, Ahmedabad 380 006.]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- testNGDemo.TestSkipDemo -->
-    </test> <!-- Class Test Execution -->
-  </suite> <!-- Sanity Test suite -->
+        </test-method> <!-- testBranchAddress -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mercuryTravels.testBranchAddress@edf4efb]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-13T15:45:01Z" finished-at="2018-09-13T15:45:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mercuryTravels.testBranchAddress.testBranchAddress(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@edf4efb]" name="tearDown" is-config="true" duration-ms="248" started-at="2018-09-13T15:45:19Z" finished-at="2018-09-13T15:45:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBranchAddress status=SUCCESS method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@edf4efb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mercuryTravels.testBranchAddress@edf4efb]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2018-09-13T15:45:20Z" finished-at="2018-09-13T15:45:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mercuryTravels.testBranchAddress.testBranchAddress(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@edf4efb]" name="testBranchAddress" duration-ms="14941" started-at="2018-09-13T15:45:20Z" data-provider="addressData" finished-at="2018-09-13T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mercury Travels Ltd.
+125, Infantry Road, Bangalore 560 001.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBranchAddress -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@edf4efb]" name="tearDown" is-config="true" duration-ms="280" started-at="2018-09-13T15:45:34Z" finished-at="2018-09-13T15:45:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBranchAddress status=SUCCESS method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@edf4efb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.mercuryTravels.testBranchAddress@edf4efb]" name="endReport" is-config="true" duration-ms="104" started-at="2018-09-13T15:45:53Z" finished-at="2018-09-13T15:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.mercuryTravels.testBranchAddress -->
+    </test> <!-- Test Extent reports -->
+  </suite> <!-- Mercurry travels Sanity Test suite -->
 </testng-results>
