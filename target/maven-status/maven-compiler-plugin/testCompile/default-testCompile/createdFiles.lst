@@ -9,12 +9,15 @@ com\mercuryTravels\testTollFreeNumber.class
 DemoCommonDriver.class
 testNGDemo\TestingClass2.class
 com\mercuryTravels\Runner\BaseUtils.class
+testNGDemo\TestSkipDemo2.class
 DemoSearchAmazonPOMStyle3.class
 testMtGotoBuyForex.class
 testNGDemo\TestListener.class
 DemoSearchAmazonPOMStyle1.class
 com\mercuryTravels\testBranchAddress.class
+TestUtilities\testGetTimeStamp.class
 com\mercuryTravels\testDateOfReturnFiledVisibility.class
 com\mercuryTravels\testSearchResultTestNG.class
 DemoSearchAmazonPOMStyle2.class
 testNGDemo\TestingClass.class
+testNGDemo\TestSkipDemo.class

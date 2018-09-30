@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Mercurry travels Sanity Test suite]">
-  <test thread-count="5" name="Test Extent reports(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="ModulerFramework(failed)">
     <classes>
-      <class name="com.mercuryTravels.testBranchAddress">
+      <class name="com.mercuryTravels.Runner.DemoTestRunner">
         <methods>
-          <include name="tearDown"/>
-          <include name="endReport"/>
-          <include name="beforeTest"/>
-          <include name="testBranchAddress" invocation-numbers="2"/>
-          <include name="beforeMethod"/>
+          <include name="feature"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.mercuryTravels.testBranchAddress -->
+      </class> <!-- com.mercuryTravels.Runner.DemoTestRunner -->
     </classes>
-  </test> <!-- Test Extent reports(failed) -->
-</suite> <!-- Failed suite [Mercurry travels Sanity Test suite] -->
+  </test> <!-- ModulerFramework(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

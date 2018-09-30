@@ -1,408 +1,287 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("testBranchAddress.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/com/mercuryTravels/cucumberFeatures/Demo.feature");
 formatter.feature({
-  "line": 1,
-  "name": "test branch address",
-  "description": "",
-  "id": "test-branch-address",
-  "keyword": "Feature"
-});
-formatter.scenarioOutline({
-  "line": 4,
-  "name": "Verify branch has correct address in HomePage",
-  "description": "",
-  "id": "test-branch-address;verify-branch-has-correct-address-in-homepage",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
+  "line": 2,
+  "name": "update profile",
+  "description": "As an employee i want to update my information such as contact,email,address\r\nso that my colleagues can view my latest details.",
+  "id": "update-profile",
+  "keyword": "Feature",
   "tags": [
     {
-      "line": 3,
-      "name": "@SmokeTest"
+      "line": 1,
+      "name": "@FeatureTest"
     }
   ]
 });
-formatter.step({
-  "line": 5,
-  "name": "I navigate MT homepage",
-  "keyword": "Given "
+formatter.before({
+  "duration": 397266,
+  "status": "passed"
 });
-formatter.step({
+formatter.background({
   "line": 6,
-  "name": "I select \u003cbranchname\u003e",
-  "keyword": "And "
+  "name": "User login to the profile",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
 });
 formatter.step({
   "line": 7,
-  "name": "I fetch the \u003caddressprefix\u003e and \u003caddresssuffix\u003e",
-  "keyword": "Then "
+  "name": "I navigate to homepage",
+  "keyword": "Given "
 });
 formatter.step({
   "line": 8,
-  "name": "Verify the address with branch",
-  "keyword": "Then "
+  "name": "I fill in username",
+  "keyword": "When "
 });
 formatter.step({
   "line": 9,
-  "name": "close the browser",
-  "keyword": "Then "
+  "name": "I fill in my password",
+  "keyword": "And "
 });
-formatter.examples({
+formatter.step({
+  "line": 10,
+  "name": "I click on login button",
+  "keyword": "And "
+});
+formatter.step({
   "line": 11,
-  "name": "",
-  "description": "",
-  "id": "test-branch-address;verify-branch-has-correct-address-in-homepage;",
-  "rows": [
-    {
-      "cells": [
-        "branchname",
-        "addressprefix",
-        "addresssuffix"
-      ],
-      "line": 12,
-      "id": "test-branch-address;verify-branch-has-correct-address-in-homepage;;1"
-    },
-    {
-      "cells": [
-        "Agra",
-        "Mercury Travels Ltd.",
-        "C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001."
-      ],
-      "line": 13,
-      "id": "test-branch-address;verify-branch-has-correct-address-in-homepage;;2"
-    },
-    {
-      "cells": [
-        "Ahmedabad",
-        "Mercury Travels Ltd.",
-        "103 B Abhijeet 1, 1st Floor, Mithakali Six Roads, Ahmedabad 380 006."
-      ],
-      "line": 14,
-      "id": "test-branch-address;verify-branch-has-correct-address-in-homepage;;3"
-    },
-    {
-      "cells": [
-        "Bangalore",
-        "Mercury Travels Ltd.",
-        "125, Infantry Road, Bangalore 560 001xxx."
-      ],
-      "line": 15,
-      "id": "test-branch-address;verify-branch-has-correct-address-in-homepage;;4"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 17992617986,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 13,
-  "name": "Verify branch has correct address in HomePage",
-  "description": "",
-  "id": "test-branch-address;verify-branch-has-correct-address-in-homepage;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 3,
-      "name": "@SmokeTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 5,
-  "name": "I navigate MT homepage",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "I select Agra",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "I fetch the Mercury Travels Ltd. and C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001.",
-  "matchedColumns": [
-    1,
-    2
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 8,
-  "name": "Verify the address with branch",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": "close the browser",
+  "name": "I should be logged in and view welcome message",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepsTestBranchAddress.iNavigateMTHomepage()"
+  "location": "DemoSteps.iNavigateToHomepage()"
 });
 formatter.result({
-  "duration": 213211433,
+  "duration": 266313998,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Agra",
-      "offset": 9
-    }
-  ],
-  "location": "stepsTestBranchAddress.iSelectBranchname(String)"
+  "location": "DemoSteps.iFillInUsername()"
 });
 formatter.result({
-  "duration": 306533206,
+  "duration": 63997,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Mercury Travels Ltd.",
-      "offset": 12
-    },
-    {
-      "val": "C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001.",
-      "offset": 37
-    }
-  ],
-  "location": "stepsTestBranchAddress.iFetchTheAddressprefixAndAddresssuffix(String,String)"
+  "location": "DemoSteps.iFillInMyPassword()"
 });
 formatter.result({
-  "duration": 285939397,
+  "duration": 127391,
   "status": "passed"
 });
 formatter.match({
-  "location": "stepsTestBranchAddress.verifyTheAddressWithBranch()"
+  "location": "DemoSteps.iClickOnLoginButton()"
 });
 formatter.result({
-  "duration": 1948895,
+  "duration": 109882,
   "status": "passed"
 });
 formatter.match({
-  "location": "stepsTestBranchAddress.closeTheBrowser()"
+  "location": "DemoSteps.iShouldBeLoggedInAndViewWelcomeMessage()"
 });
 formatter.result({
-  "duration": 332749107,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 247536,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 14245089877,
+  "duration": 86940,
   "status": "passed"
 });
 formatter.scenario({
   "line": 14,
-  "name": "Verify branch has correct address in HomePage",
+  "name": "Update Name",
   "description": "",
-  "id": "test-branch-address;verify-branch-has-correct-address-in-homepage;;3",
+  "id": "update-profile;update-name",
   "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 3,
-      "name": "@SmokeTest"
-    }
-  ]
+  "keyword": "Scenario"
 });
 formatter.step({
-  "line": 5,
-  "name": "I navigate MT homepage",
-  "keyword": "Given "
+  "line": 15,
+  "name": "I click on update Name option",
+  "keyword": "When "
 });
 formatter.step({
-  "line": 6,
-  "name": "I select Ahmedabad",
-  "matchedColumns": [
-    0
-  ],
+  "line": 16,
+  "name": "I update \"Roshan\" with \"Roshan Ranasinghe\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
-  "name": "I fetch the Mercury Travels Ltd. and 103 B Abhijeet 1, 1st Floor, Mithakali Six Roads, Ahmedabad 380 006.",
-  "matchedColumns": [
-    1,
-    2
-  ],
-  "keyword": "Then "
+  "line": 17,
+  "name": "I click save",
+  "keyword": "And "
 });
 formatter.step({
-  "line": 8,
-  "name": "Verify the address with branch",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": "close the browser",
+  "line": 18,
+  "name": "I should see update success message",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepsTestBranchAddress.iNavigateMTHomepage()"
+  "location": "DemoSteps.iClickOnUpdateNameOption()"
 });
 formatter.result({
-  "duration": 265045,
+  "duration": 85128,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Ahmedabad",
-      "offset": 9
-    }
-  ],
-  "location": "stepsTestBranchAddress.iSelectBranchname(String)"
-});
-formatter.result({
-  "duration": 217149674,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Mercury Travels Ltd.",
-      "offset": 12
+      "val": "Roshan",
+      "offset": 10
     },
     {
-      "val": "103 B Abhijeet 1, 1st Floor, Mithakali Six Roads, Ahmedabad 380 006.",
-      "offset": 37
+      "val": "Roshan Ranasinghe",
+      "offset": 24
     }
   ],
-  "location": "stepsTestBranchAddress.iFetchTheAddressprefixAndAddresssuffix(String,String)"
+  "location": "DemoSteps.iUpdateWith(String,String)"
 });
 formatter.result({
-  "duration": 245279453,
+  "duration": 4378373,
   "status": "passed"
 });
 formatter.match({
-  "location": "stepsTestBranchAddress.verifyTheAddressWithBranch()"
+  "location": "DemoSteps.iClickSave()"
 });
 formatter.result({
-  "duration": 56752,
+  "duration": 88751,
   "status": "passed"
 });
 formatter.match({
-  "location": "stepsTestBranchAddress.closeTheBrowser()"
+  "location": "DemoSteps.iShouldSeeUpdateSuccessMessage()"
 });
 formatter.result({
-  "duration": 2098065414,
+  "duration": 88751,
   "status": "passed"
 });
 formatter.after({
-  "duration": 86940,
+  "duration": 82110,
   "status": "passed"
 });
 formatter.before({
-  "duration": 11842316988,
+  "duration": 124976,
   "status": "passed"
 });
-formatter.scenario({
-  "line": 15,
-  "name": "Verify branch has correct address in HomePage",
-  "description": "",
-  "id": "test-branch-address;verify-branch-has-correct-address-in-homepage;;4",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 3,
-      "name": "@SmokeTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 5,
-  "name": "I navigate MT homepage",
-  "keyword": "Given "
-});
-formatter.step({
+formatter.background({
   "line": 6,
-  "name": "I select Bangalore",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "And "
+  "name": "User login to the profile",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
 });
 formatter.step({
   "line": 7,
-  "name": "I fetch the Mercury Travels Ltd. and 125, Infantry Road, Bangalore 560 001xxx.",
-  "matchedColumns": [
-    1,
-    2
-  ],
-  "keyword": "Then "
+  "name": "I navigate to homepage",
+  "keyword": "Given "
 });
 formatter.step({
   "line": 8,
-  "name": "Verify the address with branch",
-  "keyword": "Then "
+  "name": "I fill in username",
+  "keyword": "When "
 });
 formatter.step({
   "line": 9,
-  "name": "close the browser",
+  "name": "I fill in my password",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "I click on login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I should be logged in and view welcome message",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepsTestBranchAddress.iNavigateMTHomepage()"
+  "location": "DemoSteps.iNavigateToHomepage()"
 });
 formatter.result({
-  "duration": 492054,
+  "duration": 176295,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Bangalore",
-      "offset": 9
-    }
-  ],
-  "location": "stepsTestBranchAddress.iSelectBranchname(String)"
+  "location": "DemoSteps.iFillInUsername()"
 });
 formatter.result({
-  "duration": 207870083,
+  "duration": 86336,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Mercury Travels Ltd.",
-      "offset": 12
-    },
-    {
-      "val": "125, Infantry Road, Bangalore 560 001xxx.",
-      "offset": 37
-    }
-  ],
-  "location": "stepsTestBranchAddress.iFetchTheAddressprefixAndAddresssuffix(String,String)"
+  "location": "DemoSteps.iFillInMyPassword()"
 });
 formatter.result({
-  "duration": 251485369,
+  "duration": 82109,
   "status": "passed"
 });
 formatter.match({
-  "location": "stepsTestBranchAddress.verifyTheAddressWithBranch()"
+  "location": "DemoSteps.iClickOnLoginButton()"
 });
 formatter.result({
-  "duration": 1180929,
-  "error_message": "java.lang.AssertionError: expected [Mercury Travels Ltd.\n125, Infantry Road, Bangalore 560 001xxx.] but found [Mercury Travels Ltd.\n125, Infantry Road, Bangalore 560 001.]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.mercuryTravels.Steps.stepsTestBranchAddress.verifyTheAddressWithBranch(stepsTestBranchAddress.java:58)\r\n\tat ✽.Then Verify the address with branch(testBranchAddress.feature:8)\r\n",
-  "status": "failed"
+  "duration": 71846,
+  "status": "passed"
 });
 formatter.match({
-  "location": "stepsTestBranchAddress.closeTheBrowser()"
+  "location": "DemoSteps.iShouldBeLoggedInAndViewWelcomeMessage()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 89958,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 20,
+  "name": "Updatge email",
+  "description": "",
+  "id": "update-profile;updatge-email",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 21,
+  "name": "I click on update email",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 22,
+  "name": "I update old email with new email",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "I click save email",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "I should see new email updated",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DemoSteps.iClickOnUpdateEmail()"
+});
+formatter.result({
+  "duration": 95995,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoSteps.iUpdateOldEmailWithNewEmail()"
+});
+formatter.result({
+  "duration": 77280,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoSteps.iClickSaveEmail()"
+});
+formatter.result({
+  "duration": 75468,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoSteps.iShouldSeeNewEmailUpdated()"
+});
+formatter.result({
+  "duration": 141881,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 1031115912,
+  "duration": 92373,
   "status": "passed"
 });
 });

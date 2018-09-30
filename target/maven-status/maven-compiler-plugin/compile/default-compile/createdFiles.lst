@@ -8,12 +8,14 @@ commonLibs\contracts\IjavaScript.class
 commonLibs\contracts\Driver.class
 utils\commonUtils\ReadExcelData.class
 commonLibs\implementation\dropdownControls.class
+utils\commonUtils\getTimeStamp.class
 commonLibs\contracts\ImouseOperation.class
 commonLibs\implementation\textboxControl.class
 commonLibs\contracts\IalertHandeling.class
 commonLibs\contracts\Idropdown.class
 commonLibs\contracts\IListenerTest.class
 commonLibs\implementation\TakeScreenShots.class
+extentReports\ExtentReportsClass.class
 designPatterns\AmazonPageFactory.class
 designPatterns\AmazonPOMstyle1.class
 com\mercuryTravel\MtHotelsPage.class

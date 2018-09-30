@@ -1,13 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="62541" started-at="2018-08-28T18:29:14Z" finished-at="2018-08-28T18:30:17Z">
+  <suite name="Mercurry travels Sanity Test suite" duration-ms="87511" started-at="2018-09-21T09:27:17Z" finished-at="2018-09-21T09:28:45Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="62541" started-at="2018-08-28T18:29:14Z" finished-at="2018-08-28T18:30:17Z">
+    <test name="Test Extent reports" duration-ms="87511" started-at="2018-09-21T09:27:17Z" finished-at="2018-09-21T09:28:45Z">
+      <class name="com.mercuryTravels.testDateOfReturnFiledVisibility">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@32e6e9c3]" name="beforeTest" is-config="true" duration-ms="60" started-at="2018-09-21T09:28:08Z" finished-at="2018-09-21T09:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyDefaultSelectedTrip()[pri:100, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@32e6e9c3]" name="verifyDefaultSelectedTrip" duration-ms="15497" started-at="2018-09-21T09:28:08Z" finished-at="2018-09-21T09:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDefaultSelectedTrip -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@32e6e9c3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-21T09:28:08Z" finished-at="2018-09-21T09:28:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mercuryTravels.testDateOfReturnFiledVisibility.verifyDefaultSelectedTrip() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@32e6e9c3]" name="tearDown" is-config="true" duration-ms="2089" started-at="2018-09-21T09:28:23Z" finished-at="2018-09-21T09:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDefaultSelectedTrip status=SUCCESS method=testDateOfReturnFiledVisibility.verifyDefaultSelectedTrip()[pri:100, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@32e6e9c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@32e6e9c3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-09-21T09:28:25Z" finished-at="2018-09-21T09:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mercuryTravels.testDateOfReturnFiledVisibility.verifyDateOfReturnFiledVisibility()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyDateOfReturnFiledVisibility()[pri:200, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@32e6e9c3]" name="verifyDateOfReturnFiledVisibility" duration-ms="17227" started-at="2018-09-21T09:28:25Z" finished-at="2018-09-21T09:28:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateOfReturnFiledVisibility -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@32e6e9c3]" name="tearDown" is-config="true" duration-ms="2237" started-at="2018-09-21T09:28:42Z" finished-at="2018-09-21T09:28:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDateOfReturnFiledVisibility status=SUCCESS method=testDateOfReturnFiledVisibility.verifyDateOfReturnFiledVisibility()[pri:200, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@32e6e9c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.mercuryTravels.testDateOfReturnFiledVisibility@32e6e9c3]" name="endReport" is-config="true" duration-ms="107" started-at="2018-09-21T09:28:45Z" finished-at="2018-09-21T09:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.mercuryTravels.testDateOfReturnFiledVisibility -->
       <class name="com.mercuryTravels.testBranchAddress">
-        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@6537cf78]" name="testBranchAddress" duration-ms="26701" started-at="2018-08-28T18:29:16Z" data-provider="addressData" finished-at="2018-08-28T18:29:43Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.mercuryTravels.testBranchAddress@4590c9c3]" name="beforeTest" is-config="true" duration-ms="494" started-at="2018-09-21T09:27:17Z" finished-at="2018-09-21T09:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mercuryTravels.testBranchAddress@4590c9c3]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2018-09-21T09:27:19Z" finished-at="2018-09-21T09:27:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mercuryTravels.testBranchAddress.testBranchAddress(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@4590c9c3]" name="testBranchAddress" duration-ms="16371" started-at="2018-09-21T09:27:19Z" data-provider="addressData" finished-at="2018-09-21T09:27:35Z">
           <params>
             <param index="0">
               <value>
@@ -24,18 +101,29 @@ C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001.]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBranchAddress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@6537cf78]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-08-28T18:29:43Z" finished-at="2018-08-28T18:29:43Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@4590c9c3]" name="tearDown" is-config="true" duration-ms="429" started-at="2018-09-21T09:27:35Z" finished-at="2018-09-21T09:27:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testBranchAddress status=SUCCESS method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@6537cf78] output={null}]]]>
+                <![CDATA[[TestResult name=testBranchAddress status=SUCCESS method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@4590c9c3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@6537cf78]" name="testBranchAddress" duration-ms="16655" started-at="2018-08-28T18:29:43Z" data-provider="addressData" finished-at="2018-08-28T18:29:59Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mercuryTravels.testBranchAddress@4590c9c3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-21T09:27:35Z" finished-at="2018-09-21T09:27:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mercuryTravels.testBranchAddress.testBranchAddress(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@4590c9c3]" name="testBranchAddress" duration-ms="14066" started-at="2018-09-21T09:27:35Z" data-provider="addressData" finished-at="2018-09-21T09:27:50Z">
           <params>
             <param index="0">
               <value>
@@ -52,7 +140,18 @@ C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001.]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBranchAddress -->
-        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@6537cf78]" name="testBranchAddress" duration-ms="17237" started-at="2018-08-28T18:29:59Z" data-provider="addressData" finished-at="2018-08-28T18:30:17Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@4590c9c3]" name="tearDown" is-config="true" duration-ms="333" started-at="2018-09-21T09:27:50Z" finished-at="2018-09-21T09:27:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBranchAddress status=SUCCESS method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@4590c9c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@4590c9c3]" name="testBranchAddress" duration-ms="14800" started-at="2018-09-21T09:27:50Z" data-provider="addressData" finished-at="2018-09-21T09:28:05Z">
           <params>
             <param index="0">
               <value>
@@ -69,29 +168,33 @@ C/o Hotel Clarks Shiraz, 54, Taj Road, Agra 282 001.]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBranchAddress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@6537cf78]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-08-28T18:29:59Z" finished-at="2018-08-28T18:29:59Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mercuryTravels.testBranchAddress@4590c9c3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-21T09:27:50Z" finished-at="2018-09-21T09:27:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testBranchAddress status=SUCCESS method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@6537cf78] output={null}]]]>
+                <![CDATA[public void com.mercuryTravels.testBranchAddress.testBranchAddress(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@4590c9c3]" name="tearDown" is-config="true" duration-ms="2366" started-at="2018-09-21T09:28:05Z" finished-at="2018-09-21T09:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBranchAddress status=SUCCESS method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@4590c9c3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercuryTravels.testBranchAddress@6537cf78]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-08-28T18:30:17Z" finished-at="2018-08-28T18:30:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testBranchAddress status=SUCCESS method=testBranchAddress.testBranchAddress(java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravels.testBranchAddress@6537cf78] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.mercuryTravels.testBranchAddress@4590c9c3]" name="endReport" is-config="true" duration-ms="494" started-at="2018-09-21T09:28:07Z" finished-at="2018-09-21T09:28:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- endReport -->
       </class> <!-- com.mercuryTravels.testBranchAddress -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Test Extent reports -->
+  </suite> <!-- Mercurry travels Sanity Test suite -->
 </testng-results>
