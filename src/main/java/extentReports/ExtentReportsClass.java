@@ -26,7 +26,7 @@ public class ExtentReportsClass {
         extent.addSystemInfo("Environment","Automation testing");
         extent.addSystemInfo("User Name","Roshan Ranasinghe");
 
-        extent.loadConfig(new File("C:\\Users\\pcadmin\\IdeaProjects\\ModulerFramework\\src\\main\\java\\extentReports\\extent-config.xml"));
+        extent.loadConfig(new File("C:\\Users\\user\\IdeaProjects\\ModulerFramework\\src\\main\\java\\extentReports\\extent-config.xml"));
 
     }
 

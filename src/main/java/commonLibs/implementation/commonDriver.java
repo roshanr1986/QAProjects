@@ -36,12 +36,12 @@ public class commonDriver implements Driver {
         browserType=browserType.trim();
         if ("firefox".equals(browserType.toLowerCase())) {
 
-            System.setProperty("webdriver.gecko.driver","C:\\Users\\pcadmin\\IdeaProjects\\ModulerFramework\\src\\drivers\\geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver","C:\\Users\\user\\IdeaProjects\\ModulerFramework\\src\\drivers\\geckodriver.exe");
             driver = new FirefoxDriver();
 
         } else if ("chrome".equals(browserType.toLowerCase())) {
 
-            System.setProperty("webdriver.chrome.driver","C:\\Users\\pcadmin\\IdeaProjects\\ModulerFramework\\src\\drivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\IdeaProjects\\ModulerFramework\\src\\drivers\\chromedriver.exe");
             driver = new ChromeDriver();
 
         } else if ("ie".equals(browserType.toLowerCase())) {
