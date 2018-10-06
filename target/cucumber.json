@@ -1,0 +1,326 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User login to the profile",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 996512526,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "DemoSteps.iNavigateToHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147845,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I fill in username",
+            "match": {
+              "location": "DemoSteps.iFillInUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151685,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I fill in my password",
+            "match": {
+              "location": "DemoSteps.iFillInMyPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286089,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "DemoSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148485,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be logged in and view welcome message",
+            "match": {
+              "location": "DemoSteps.iShouldBeLoggedInAndViewWelcomeMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 44948027,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DemoHooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Update Name",
+        "description": "",
+        "id": "update-profile;update-name",
+        "after": [
+          {
+            "result": {
+              "duration": 147845,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DemoHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 156165,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on update Name option",
+            "match": {
+              "location": "DemoSteps.iClickOnUpdateNameOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11419893,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I update \"Roshan\" with \"Roshan Ranasinghe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roshan",
+                  "offset": 10
+                },
+                {
+                  "val": "Roshan Ranasinghe",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoSteps.iUpdateWith(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155525,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click save",
+            "match": {
+              "location": "DemoSteps.iClickSave()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264329,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see update success message",
+            "match": {
+              "location": "DemoSteps.iShouldSeeUpdateSuccessMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "User login to the profile",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 285449,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "DemoSteps.iNavigateToHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144644,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I fill in username",
+            "match": {
+              "location": "DemoSteps.iFillInUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137605,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I fill in my password",
+            "match": {
+              "location": "DemoSteps.iFillInMyPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127364,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "DemoSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136965,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be logged in and view welcome message",
+            "match": {
+              "location": "DemoSteps.iShouldBeLoggedInAndViewWelcomeMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 213127,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DemoHooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Updatge email",
+        "description": "",
+        "id": "update-profile;updatge-email",
+        "after": [
+          {
+            "result": {
+              "duration": 170246,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DemoHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 162565,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on update email",
+            "match": {
+              "location": "DemoSteps.iClickOnUpdateEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186886,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I update old email with new email",
+            "match": {
+              "location": "DemoSteps.iUpdateOldEmailWithNewEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158086,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click save email",
+            "match": {
+              "location": "DemoSteps.iClickSaveEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135684,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see new email updated",
+            "match": {
+              "location": "DemoSteps.iShouldSeeNewEmailUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "update profile",
+    "description": "As an employee i want to update my information such as contact,email,address\r\nso that my colleagues can view my latest details.",
+    "id": "update-profile",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/mercuryTravels/cucumberFeatures/Demo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FeatureTest"
+      }
+    ]
+  }
+]

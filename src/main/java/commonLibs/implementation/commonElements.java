@@ -12,6 +12,7 @@ import java.util.List;
 
 public class commonElements implements IcommonElements {
     private  WebDriver driver;
+
     public commonElements(WebDriver driver) {
         this.driver=driver;
 
@@ -24,7 +25,7 @@ public class commonElements implements IcommonElements {
 
     @Override
     public String getExtractedText(String branchAddressExtractedText) throws Exception {
-        return branchAddressExtractedText.trim().toString();
+        return branchAddressExtractedText.trim();
 
     }
 

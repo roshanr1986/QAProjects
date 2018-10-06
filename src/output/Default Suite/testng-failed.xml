@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
   <test thread-count="5" name="ModulerFramework(failed)">
     <classes>
-      <class name="com.mercuryTravels.Runner.DemoTestRunner">
+      <class name="com.FreeCRM.Runner.loginRunner">
         <methods>
-          <include name="feature"/>
+          <include name="feature" invocation-numbers="0"/>
           <include name="setUpClass"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.mercuryTravels.Runner.DemoTestRunner -->
+      </class> <!-- com.FreeCRM.Runner.loginRunner -->
     </classes>
   </test> <!-- ModulerFramework(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

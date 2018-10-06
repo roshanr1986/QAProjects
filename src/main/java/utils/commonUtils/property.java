@@ -6,4 +6,6 @@ public class property {
     public static String excelFileExtension=".xlsx";
     public static String screenshotImageFilePath="C:/Users/user/IdeaProjects/ModulerFramework/src/screenshots/";
     public static String screenshotImageFileExtension=".JPG";
+
+    public static String FreeCrmURL="https://www.freecrm.com/index.html";
 }

@@ -3,6 +3,7 @@ package commonLibs.implementation;
 import commonLibs.contracts.IjavaScript;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class javaScriptExecutor implements IjavaScript {
 
@@ -19,8 +20,8 @@ public class javaScriptExecutor implements IjavaScript {
     }
 
     @Override
-    public void executeJavaScript(String scriptToExecute) throws Exception {
-        getJSEngine().executeScript(scriptToExecute);
+    public void executeJavaScript(String scriptToExecute, WebElement element) throws Exception {
+        getJSEngine().executeScript(scriptToExecute , element);
     }
 
     @Override
